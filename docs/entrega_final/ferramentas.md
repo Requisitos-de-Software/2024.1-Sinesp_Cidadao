@@ -44,4 +44,4 @@ _Autor: [Italo Bruno](https://github.com/Italobrunom), 2024._
 
 | Versão | Data   | Descrição | Autor(es) | Revisor(es)     |
 | ------ | ---------- | ---------------- | ------------------ | ----------- |
-| `1.0`    | 28/06/2024 | Criação do Documento |[Italo Bruno](https://github.com/italobrunom) |  |
+| `1.0`    | 28/06/2024 | Criação do Documento |[Italo Bruno](https://github.com/italobrunom) | [Flávio Melo](https://github.com/flavioovatsug) |
