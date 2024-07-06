@@ -1,0 +1,36 @@
+# Execução do Projeto
+
+## Introdução
+
+Esse artefato tem como objetivo mostrar como foi organizado a execução do nosso projeto.
+
+## Resumo da Execução do Projeto
+
+Essa tabela 1 lista tudo oque foi feito em cada entrega/etapa do projeto.
+
+<font size="3"><p style="text-align: center"><b>Tabela 1</b> - Execução do Projeto</p></font>
+
+| Etapas do Projeto | Definição | Artefato(s) Produzido(s) |
+| :---------------: | ---------- | :--------: |
+| **Planejamento** | Foi o processo em que toda a equipe avaliou diversos aplicativos para assim trabalhar em cima do mesmo. Além disso, a nossa equipe planejou o cronograma e também foram escolhidas as ferramentas que seriam utilizadas ao decorrer do projeto | [Lista de Apps](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Planejamento/Lista_de_aplicativos/) <br> [App Escolhido](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Planejamento/App_selecionado/) <br> [Cronograma Plan.](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Planejamento/cronograma/) <br> [Cronograma Exe.](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Planejamento/Cronograma_Executados/) <br> [Heatmap](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Planejamento/heatmap/) <br> [Ferramentas](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Planejamento/ferramentas/)   |
+| **Pré-rastreabilidade** | A pré-rastreabilidade envolve a análise da arquitetura do aplicativo para identificar possíveis requisitos relacionados ao contexto específico. | [Rich Picture](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Planejamento/Rich_pictures/) |
+| **Elicitação** | Durante a fase de elicitação, identificamos as necessidades do sistema e suas características. Essa etapa envolve tanto o levantamento de requisitos por meio de técnicas quanto a priorização dos requisitos elicitados. |  |
+|            | **Artefatos auxiliares** | [Perfil de Usuário](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/Perfil_de_usuario/) <br> [Personas](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/personas/)  |
+|            | **Técnicas de elicitação** | [Questionário](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/questionario/) <br> [Analise de Inter.](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDaInterface/) <br> [Analise de Doc.](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDeDocumento/) <br> [Analise de Prot.](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDeProtocolo/) <br> [Entrevista](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/Entrevista/) <br> [Introspecção](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/Introspeccao/) <br>  [Storytelling](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/storytelling/) |
+|            | **Priorização dos requisitos** | [MOSCOW](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/priorizacao/Moscow/) <br> [100$](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/priorizacao/100%24/) <br> [First Things First](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/priorizacao/FTF/) <br> [Three Level Scale](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/priorizacao/three_scales/) |
+|            | **Requisitos elicitados** | [Requisitos Elicitados](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/Requisitos_elicitados/) |
+| **Modelagem** | Procedimento ao qual foram realizadas outras maneiras para detalhar o aplicativo analizado. |  |
+|               | **Modelagem de Requisitos** | [Caso de Uso](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Modelagem/Casos_De_uso/) <br> [Cenários](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Modelagem/Cenarios/) <br> [Especificação Suplementar](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Modelagem/especificacao_suplementar/) <br> [Léxicos](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Modelagem/Lexico/) |
+|               | **Modelagem Ágil** | [Backlog](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Modelagem/Agil/backlog/) <br> [Histórias de Usuário](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Modelagem/Agil/Historias_de_Usuario/) <br> [NFR Framework](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Modelagem/Agil/NFR/) |
+| **Pós-rastreabilidade** | Vinculação dos requisitos aos artefatos desenvolvidos durante o projeto. | [Backward From](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/P%C3%B3s-Rastreabilidade/backward/) <br> [Foward From](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/P%C3%B3s-Rastreabilidade/forward/) <br> [Matriz de rastreablidade](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/P%C3%B3s-Rastreabilidade/matriz/)|
+| **Verificação** | Foi o processo onde verificamos os artefatos de um outro grupo e os nossos próprios artefatos por meio do método de inspeção de Fagan. | Verificação do Grupo 6: <br> [Entrega 1](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo6/entrega1/planejamento_entr_1/) <br> [Entrega 2](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo6/entrega2/planejamento_entr_2/) <br> [Entrega 3](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo6/entrega3/planejamento_entr_3/) <br> [Entrega 4](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo6/entrega4/planejamento_entr_4/) <br> Verificação do nosso Grupo 5: <br> [Entrega 1](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo5/entrega1/planejamento_entre1/) <br> [Entrega 2](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo5/entrega2/planejamento_entr_2/) <br> [Entrega 3](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo5/entrega3/planejamento_entr_3/) <br> [Entrega 4](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo5/entrega4/planejamento_entr_4/) <br> [Entrega 6](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo5/entrega6/planejamento_entr_6/) |
+| **Validação** | Processo de análise dos requisitos pela comprovação de se eles estão de acordo com o que os stakeholders requisitaram em um ambiente real de uso. | [Prototipação](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo5/validacao/Prototipo/) | 
+
+<font size="3"><p style="text-align: center">Fonte: [Flávio Melo](https://github.com/flavioovatsug)</p></font>
+
+
+## Histórico de Versões
+
+| Versão | Data   | Descrição | Autor(es) | Revisor(es)     |
+| ------ | ---------- | ---------------- | ------------------ | ----------- |
+| `1.0`    | 06/07/2024 | Criação do Documento | [Flávio Melo](https://github.com/flavioovatsug) | [Italo Bruno](https://github.com/italobrunom) |
