@@ -24,7 +24,7 @@ Assim como nas demais verificações, a metodologia escolhida foi a dos checklis
 | 3   | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores? | Sim | - |
 | 4   | O artefato possui uma bibliografia/referência bibliográfica? |   Sim | - |
 
-_Autor: [Italo Bruno](https://github.com/Italobrunom), 2024._
+_Autor: [Bittar](https://github.com/Bittarx), 2024._
 
 **Tabela 2** - Checklist do Foward
 
@@ -33,9 +33,9 @@ _Autor: [Italo Bruno](https://github.com/Italobrunom), 2024._
 |  1  | O artefato possui requisitos funcionais?? | Sim | - |
 |  2  | O artefato possui requisitos não funcionais? | Sim | - |
 |  3  | Os requisitos estão ligados à um caso de uso? | Sim | - |
-|  4  | Os requisitos estao ligados à um cenário?? | Sim | - |
+|  4  | Os requisitos estão ligados à um cenário?? | Sim | - |
 
-_Autor: [Italo Bruno](https://github.com/Italobrunom), 2024._
+_Autor: [Bittar](https://github.com/Bittarx), 2024._
 
 </center>
 
@@ -44,6 +44,8 @@ _Autor: [Italo Bruno](https://github.com/Italobrunom), 2024._
 - Seguindo a lista construída não foram encontrados problemas relativos ao artefato.
 
 ## Gravação da verificação
+
+[Video1](https://youtu.be/https://www.youtube.com/watch?v=TkwcfYwHNBk)
 
 ## Referências Bibliográficas
 

@@ -1,4 +1,4 @@
-# Verificação das Rastreabilidade do Grupo 5
+# Verificação da Rastreabilidade do Grupo 6
 
 ## Introdução
 
@@ -56,6 +56,8 @@ _Autor: [Bittar](https://github.com/Bittarx), 2024._
 </center>
 
 ## Gravação de Verificação
+
+[Video1](https://youtu.be/https://www.youtube.com/watch?v=TkwcfYwHNBk)
 
 ## Bibliografia
 

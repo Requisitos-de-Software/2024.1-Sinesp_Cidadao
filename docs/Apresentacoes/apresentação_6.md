@@ -1,4 +1,4 @@
-# Apresentação etapa 5
+# Apresentação etapa 6
 
 ## Introdução
 
@@ -24,6 +24,6 @@ Esta página é destinada à apresentação da etapa  do projeto de Requisitos d
 
 ## Histórico de versão
 
-| Versão |    Data    | Descrição                         | Autor(es)                                      | Revisor(es)                                    |
-| ------ | :--------: | --------------------------------- | ---------------------------------------------- | ---------------------------------------------- |
+| Versão |    Data    | Descrição| Autor(es)| Revisor(es)|
+| ------ | :--------: | -------------- | --------------------- | --------------------------------- |
 | `1.0` | 23/06/2024 | Criação e estruturação do arquivo |[Bittar](https://github.com/Bittarx) |[Italo Bruno](https://github.com/ItaloBrunoM)|

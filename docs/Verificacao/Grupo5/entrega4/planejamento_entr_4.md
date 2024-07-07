@@ -91,6 +91,11 @@ _Autor: [Italo Bruno](https://github.com/Italobrunom), 2024._
 
 ## Gravação da Verificação 
 
+<center>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Md82rCFhoHg?si=tg_hdF9say7uVVN9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</center>
 
 ## Bibliografia
 

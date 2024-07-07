@@ -776,10 +776,6 @@ _Autor: [Italo Bruno](https://github.com/Italobrunom), 2024._
 - Seguindo a lista construída não foram encontrados problemas relativos ao artefato.
 
 
-## Gravação da verificação
-
-
-
 ## Referências Bibliográficas
 [1] SERRANO, Milene; SERRANO, Maurício. Slides de Requisitos. Disponível em: <https://aprender3.unb.br/pluginfile.php/2845040/mod_resource/content/1/Requisitos%20-%20Aula%2015a.pdf>. Acesso em 24 de Maio de 2024.
 

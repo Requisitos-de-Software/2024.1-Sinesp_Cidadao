@@ -54,6 +54,7 @@ nav:
       - Ata 9: atas/Ata_Reuniao9_27_05_2024.md
       - Ata 10: atas/ata_Reuniao10_10_06_2024.md
       - Ata 11: atas/Ata_Reuniao11_23_06_2024.md
+      - Ata 12: atas/Ata_Reuniao12_01_07_2024.md
   - Apresentações: 
       - Apresentação 1: Apresentacoes/apresentacao_1.md
       - Apresentação 2: Apresentacoes/apresentacao_2.md
@@ -61,6 +62,7 @@ nav:
       - Apresentação 4: Apresentacoes/apresentacao_4.md
       - Apresentação 5: Apresentacoes/apresentação_5.md
       - Apresentação 6: Apresentacoes/apresentação_6.md
+      - Apresentação 7: Apresentacoes/apresentacao_7.md
   - Planejamento:
       - Lista de Aplicativos: Planejamento/Lista_de_aplicativos.md
       - Aplicativo Escolhido: Planejamento/App_selecionado.md
@@ -153,15 +155,16 @@ nav:
             - Planejamento : Verificacao/Grupo5/entrega4/planejamento_entr_4.md
             - Histórias de Usuário: Verificacao/Grupo5/entrega4/verifica_user.md
             - Backlog: Verificacao/Grupo5/entrega4/verifica_backlog.md
-            - NFR Framework: Verificacao/Grupo5/entrega4/verifica_nfr.
+            - NFR Framework: Verificacao/Grupo5/entrega4/verifica_nfr.md
           - Entrega 6:
-            - Planejamento: Verificacao/Grupo5/entrega6/planejamento_entr_6.
-            - Backward From: Verificacao/Grupo5/entrega6/verifica_backward.
-            - Foward From: Verificacao/Grupo5/entrega6/verifica_foward.
-            - Matriz de Rastreabilidade: Verificacao/Grupo6/entrega4/verifica_matriz.
-      - Validação:
+            - Planejamento: Verificacao/Grupo5/entrega6/planejamento_entr_6.md
+            - Backward From: Verificacao/Grupo5/entrega6/verifica_backward.md
+            - Foward From: Verificacao/Grupo5/entrega6/verifica_foward.md
+            - Matriz de Rastreabilidade: Verificacao/Grupo5/entrega6/verifica_matriz.md
+      - Validação: 
           - Protótipo: Verificacao/Grupo5/validacao/Prototipo.md
   - Entrega Final:
+      - Execução do Projeto: entrega_final/execucao.md
       - Ferramentas Utilizadas: entrega_final/ferramentas.md
       - Apresentações: entrega_final/apresentacao.md
-      
+      - Facilidades e Dificuldades: entrega_final/facilidade_dificuldade.md

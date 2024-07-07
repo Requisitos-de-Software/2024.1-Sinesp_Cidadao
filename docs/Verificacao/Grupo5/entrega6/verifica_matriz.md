@@ -47,6 +47,8 @@ _Autor: [Bittar](https://github.com/Bittarx), 2024._
 
 ## Gravação da verificação
 
+[Video1](https://youtu.be/https://www.youtube.com/watch?v=TkwcfYwHNBk)
+
 ## Referências Bibliográficas
 
 [1] SERRANO, Milene; SERRANO, Maurício. Slides de Requisitos. Disponível em: <https://aprender3.unb.br/pluginfile.php/2845096/mod_resource/content/1/Requisitos%20-%20Aula%20026.pdf>. Acesso em 24 de Maio de 2024.
