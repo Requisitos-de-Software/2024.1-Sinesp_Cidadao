@@ -17,22 +17,22 @@ Tabela 1: Símbolos
 
   | Legenda | Artefato |
   | ------- | ------------------------- |
-  | AI| Análise de interface |
-  | C | Cenários |
+  | AIU| Análise de interface |
+  | CN | Cenários |
   | EP | Épico |
   |TM |Tema |
   | ENT | Entrevista |
   | ES | Especificação Suplementar |
-  | AD | Analise de Documento |
-  | INT | Introspecção |
+  | DOC | Analise de Documento |
+  | IP | Introspecção |
   | LX | Léxico |
   | AP | Análise de Protocolo |
   | Q | Questionário |
   | RF | Requisitos Funcionais |
   | RNF | Requisitos não Funcionais |
-  | ST | Storytelling |
+  | STO | Storytelling |
   | UC | Casos de Uso |
-  | US | Histórias de usuário |
+  | HU | Histórias de usuário |
   
 _Autor:[Harryson Campos Martins](https://github.com/harry-cmartin), 2024._
 
@@ -122,3 +122,4 @@ _Autor:[Christian Hirsch Santos](https://github.com/crstyhs) e [Ian Lucca](https
 |:----:|----|---------|-----|:-------:|
 |`1.0`| 22/06/2024 | Criação do documento |[Christian Hirsch Santos](https://github.com/crstyhs)  | [Flávio Melo](https://github.com/flavioovatsug)|
 |`1.1`| 23/06/2024 | Melhoria do documento |[Ian Lucca](https://github.com/IanLucca12)  | [Flávio Melo](https://github.com/flavioovatsug)|
+|`1.2`| 23/06/2024 | Melhoria do documento |[Christian Hirsch Santos](https://github.com/crstyhs) | [Ian Lucca](https://github.com/IanLucca12)|
