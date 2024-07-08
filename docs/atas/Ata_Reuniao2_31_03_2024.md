@@ -43,8 +43,6 @@ Autor: [Christian](https://github.com/crstyhs), 2024
 
 [Video](https://youtu.be/ZBQkWCX2v4A)
 
-## Referências
-
 ## Histórico de versão
 
 | Versão | Data | Descrição | Autor | Revisor |

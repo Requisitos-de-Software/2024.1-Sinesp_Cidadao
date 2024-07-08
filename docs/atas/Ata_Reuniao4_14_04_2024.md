@@ -43,8 +43,6 @@ Autor: [Harryson](https://github.com/harry-cmartin), 2024
 
 [Video](https://www.youtube.com/watch?v=pLfmGsFbdCA)
 
-## Referências
-
 ## Histórico de versão
 
 | Versão | Data | Descrição | Autor | Revisor |

@@ -41,8 +41,6 @@ Autor: [Christian Hirsch Santos](https://github.com/crstyhs), 2024
 
 [Video](https://www.youtube.com/watch?v=huW7cJE9Ajk)
 
-## Referências
-
 ## Histórico de versão
 
 | Versão | Data | Descrição | Autor | Revisor |
