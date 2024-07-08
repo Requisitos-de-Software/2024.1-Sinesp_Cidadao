@@ -163,11 +163,15 @@ nav:
             - Matriz de Rastreabilidade: Verificacao/Grupo5/entrega6/verifica_matriz.md
       - Validação: 
           - Protótipo: Verificacao/Grupo5/validacao/Prototipo.md
+          - Comprovação Informal: Verificacao/Grupo5/validacao/validacao_informal.md
   - Entrega Final:
       - Aplicativo Selecionado: entrega_final/app_selecionado.md
       - Execução do Projeto: entrega_final/execucao.md
       - Ferramentas Utilizadas: entrega_final/ferramentas.md
+      - Técnicas Utilizadas: entrega_final/tecnicas_utilizadas.md
       - Planejamento do Recursos e das Entregas: entrega_final/Planejamento_dos_rec_e_entregas.md
+      - Métodos de Verificação e Validação: entrega_final/verificacao_validacao.md
       - Artefatos Criados: entrega_final/artefatos_criados.md
       - Apresentações: entrega_final/apresentacao.md
+      - Resultados: entrega_final/resultados.md
       - Facilidades e Dificuldades: entrega_final/facilidade_dificuldade.md

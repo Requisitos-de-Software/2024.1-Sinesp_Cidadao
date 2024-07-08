@@ -79,8 +79,8 @@ $ python -m mkdocs serve
 
 ## Histórico de Versões
 
-| Versão |    Data    | Descrição                                 | Autor(es)                                       | Revisor(es)                                    |
-| ------ | :--------: | ----------------------------------------- | ----------------------------------------------- | ---------------------------------------------- |
+| Versão |    Data    | Descrição| Autor(es)| Revisor(es)|
+| ------ | :--------: | ------------------- | ------------------------ | ----------------- |
 | 1.0    | 30/03 | Criação do documento                        | [Harryson](https://github.com/harry-cmartin) | [Flávio Gustavo](https://github.com/flavioovatsug)      |
 |
 
