@@ -25,7 +25,7 @@ _Autor: [Italo Bruno](https://github.com/Italobrunom), 2024._
 
 | Versão | Data   | Descrição | Autor(es) | Revisor(es)     |
 | ------ | ---------- | ---------------- | ------------------ | ----------- |
-| `1.0`    | 28/06/2024 | Criação do Documento |[Italo Bruno](https://github.com/italobrunom) |  |
-| `1.1`    | 28/06/2024 | Adição da entrega 7 do Documento |[Italo Bruno](https://github.com/italobrunom) |  |
+| `1.0`    | 28/06/2024 | Criação do Documento |[Italo Bruno](https://github.com/italobrunom) | [Harryson Campos Martins](https://github.com/harry-cmartin)  |
+| `1.1`    | 28/06/2024 | Adição da entrega 7 do Documento |[Italo Bruno](https://github.com/italobrunom) | [Harryson Campos Martins](https://github.com/harry-cmartin)  |
 
 
