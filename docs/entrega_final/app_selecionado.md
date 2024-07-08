@@ -2,7 +2,7 @@
 
 ## Introdução
 
-No inicio da disciplona foram elicitados alguns apps candidatos a serem o aplicativo de esolha para o estudo na disciplina. Diante isso, este documento tem por objetivo documentar e detalhar o app escolhido e seus respctivos motivos e critérios de escolha.
+No inicio da disciplina foram elicitados alguns apps candidatos a serem o aplicativo de escolha para o estudo na disciplina. Diante isso, este documento tem por objetivo documentar e detalhar o app escolhido e seus respectivos motivos e critérios de escolha.
 
 
 ## Critério de escolha
@@ -25,7 +25,7 @@ Aplicativo do Sistema Nacional de Informações de Segurança Pública que permi
 
 ## Termos de uso
 - Os termos de uso não estão presentes no aplicativo e não foi possível encontrar uma fonte oficial de tal documento.
-- Foi elaborado um e-mail para os reponsáveis do aplicativo sendo requisitado os termos de uso, uma resposta ainda não foi recebida na data desse documento  
+- Foi elaborado um e-mail para os responsáveis do aplicativo sendo requisitado os termos de uso, uma resposta ainda não foi recebida na data desse documento  
 - Foi encontrado o termo de uso de uma fonte não oficial presente abaixo na figura 1
 <font size="2"><p style="text-align: center">Figura 1: Termo de Uso </p></font>
  ![Termo de uso](../assets/Termo_de_Uso.png)
@@ -33,7 +33,7 @@ Aplicativo do Sistema Nacional de Informações de Segurança Pública que permi
 
 ## Conclusão
 
-O app selecionado é uma das partes, senão a mais importante parte para desenvolvimento do trabalho por inteiro, já que todo o projeto se baseará no conrtexto do aplicativo. Logo, após o processo que obtivemos em toda a disciplina é possível recomendar que se tenha uma grande atenção ao público-alvo do app e se este está disponível com facilidade para participar da avaliação do app, já que isso afeta em grande parte do projeto.
+O app selecionado é uma das partes, senão a mais importante parte para desenvolvimento do trabalho por inteiro, já que todo o projeto se baseará no contexto do aplicativo. Logo, após o processo que obtivemos em toda a disciplina é possível recomendar que se tenha uma grande atenção ao público-alvo do app e se este está disponível com facilidade para participar da avaliação do app, já que isso afeta em grande parte do projeto.
 
 ## Referências
 Sinesp Cidadão. Disponível em: [Gov](https://www.gov.br/pt-br/apps/sinesp-cidadao). Acesso em: 5 de Julho de 2024.</br>

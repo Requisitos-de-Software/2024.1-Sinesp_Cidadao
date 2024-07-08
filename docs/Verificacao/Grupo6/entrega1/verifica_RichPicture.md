@@ -74,7 +74,7 @@ A metodologia escolhida foi a dos checklists, usando o checklist já montado par
 
 > BENYON, David. Interação Humano-Computador. 2. ed. São Paulo: Pearson Prentice Hall, 2011.
 
-> Requisistos aula 4 - Milene Serrano e Maurício Serrano
+> Requisitos aula 4 - Milene Serrano e Maurício Serrano
 
 
 ## Histórico de Versões

@@ -56,7 +56,7 @@ Autor: [Ian Lucca](https://github.com/IanLucca12), 2024
 | Ata de Reunião | 27/05 | 27/05 | Harryson |
 | Modelagem de requisitos: Histórias de usuários | 15/05 | 20/05 | Ian Lucca e Christian |
 | Modelagem de requisitos: Backlog |15/05 | 20/05 | Harryson e Flávio Gustavo |
-| NFR: Framework | 15/05 | 20/05 | Ìtalo e Marcos Bittar |
+| NFR: Framework | 15/05 | 20/05 | Italo e Marcos Bittar |
 | Gravação de apresentação | 26/05 | 26/05 | Marcos Bittar, Italo Bruno, Harryson, Christian, Flávio Gustavo, Ian Lucca |
 | Correção pós apresentação | 27/05 | 06/06 | Marcos Bittar, Italo Bruno, Harryson, Christian, Flávio Gustavo, Ian Lucca |
 

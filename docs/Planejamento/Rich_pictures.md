@@ -5,7 +5,7 @@ O Rich Picture é uma representação semelhante a um desenho animado que identi
 
 ## 2. Metodologia
 
-Para síntese desse artefato foi estudado diversos aplicativos de origem governamental, utilizando de tecnicas previstas pelo texto "Introducing Rich Pictures - Rich Picture Drawing Guidelines (Diretrizes para desenhar Rich Pictures)", disponibilizado para estudo na matéria de Requistos de Software - FGA.
+Para síntese desse artefato foi estudado diversos aplicativos de origem governamental, utilizando de técnicas previstas pelo texto "Introducing Rich Pictures - Rich Picture Drawing Guidelines (Diretrizes para desenhar Rich Pictures)", disponibilizado para estudo na matéria de Requisitos de Software - FGA.
 
 
 ## 3. Rich Picture

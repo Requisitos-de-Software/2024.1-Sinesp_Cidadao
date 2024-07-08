@@ -21,7 +21,7 @@ Aplicativo do Sistema Nacional de Informações de Segurança Pública que permi
 
 ## Termos de uso
 - Os termos de uso não estão presentes no aplicativo e não foi possível encontrar uma fonte oficial de tal documento.
-- Foi elaborado um e-mail para os reponsáveis do aplicativo sendo requisitado os termos de uso, uma resposta ainda não foi recebida na data desse documento  
+- Foi elaborado um e-mail para os responsáveis do aplicativo sendo requisitado os termos de uso, uma resposta ainda não foi recebida na data desse documento  
 - Foi encontrado o termo de uso de uma fonte não oficial presente abaixo na figura 1
 <font size="2"><p style="text-align: center">Figura 1: Termo de Uso </p></font>
  ![Termo de uso](../assets/Termo_de_Uso.png)
@@ -34,4 +34,4 @@ Sinesp Cidadão. Disponível em: [Gov](https://www.gov.br/pt-br/apps/sinesp-cida
 | Versão | Data | Descrição | Autor | Revisor |
 | :----: | :--: | :-------: | :---: | :-----: |
 | 1.0 | 31/03/2024 | Criação do documento do aplicativo selecionado | [Christian](https://github.com/crstyhs)|[Harryson C.](https://github.com/harry-cmartin)  |
-| 1.1 | 12/04/2024 | Atualização da introdução , Critériose e adição de legenda | [Christian](https://github.com/crstyhs)| [Italo Bruno](https://github.com/ItaloBrunoM) |
+| 1.1 | 12/04/2024 | Atualização da introdução , Critérios e adição de legenda | [Christian](https://github.com/crstyhs)| [Italo Bruno](https://github.com/ItaloBrunoM) |

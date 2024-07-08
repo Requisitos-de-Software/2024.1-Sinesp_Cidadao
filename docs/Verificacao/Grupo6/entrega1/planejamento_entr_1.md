@@ -37,7 +37,7 @@ _Autor: [Christian Hirsch Santos](https://github.com/crstyhs), 2024._
 
 A checklist foi construídas levando em conta os padrões esperados para os artefatos, baseada no livro _David Benyon, Interação Humano-Computador. São Paulo, 2a Edição, Pearson Prentice Hall, 2011_<a id="FTF1" href="#FTF1Ref">^1^</a>,  e nos Slides _Requisitos - Aula 4 da professora Milene Serrano e Maurício Serrano_<a id="FTF2Ref" href="#FTF2">2.</a>. 
 
-Abaixo será dividida a checklist em Checklist Gerail e Específica , pode ser visto a seguir nas tabelas 2 a 3:
+Abaixo será dividida a checklist em Checklist Geral e Específica , pode ser visto a seguir nas tabelas 2 a 3:
 
 <font><p style="text-align: center">**Tabela 2** Modelo Rich Picture geral.</p></font>
 
@@ -69,7 +69,7 @@ Abaixo será dividida a checklist em Checklist Gerail e Específica , pode ser v
 | 11 |      Está de acordo com o aplicativo selecionado ?                                         |           |          |            |
 | 12 |      O Rich picture representa o aplicativo ?                                          |           |          |            |
 | 13 |      Explicação dos símbolos na legenda ?                                          |           |          |            |
-| 14 |      Explicação dos símbolos consizente com a imagem ?                                          |           |          |            |
+| 14 |      Explicação dos símbolos condizente com a imagem ?                                          |           |          |            |
 | 15 |      Rich picture apresenta os fluxos corretos do aplicativo ?                                          |           |          |            |
 | 16 |      Elementos do Rich picture são relevantes ?                                          |           |          |            |
 
@@ -83,7 +83,7 @@ Abaixo será dividida a checklist em Checklist Gerail e Específica , pode ser v
 
 > 1. BENYON, David. Interação Humano-Computador. 2. ed. São Paulo: Pearson Prentice Hall, 2011.
 
-> 2. Requisistos aula 4 - Milene Serrano e Maurício Serrano
+> 2. Requisitos aula 4 - Milene Serrano e Maurício Serrano
 
 
 

@@ -23,7 +23,7 @@ A tabela 1 apresenta os aplicativos sugeridos por cada membro do grupo durante a
 
 ## Aplicativo Escolhido
 
- Posteriormente a primeira reunião de grupo foi decido que entre as opções sugeridas o aplicativo escolhido seria o <i>sinesp cidadão</i>
+ Posteriormente a primeira reunião de grupo foi decido que entre as opções sugeridas o aplicativo escolhido seria o <i>Sinesp Cidadão</i>
 
 ## Referências
 
@@ -32,7 +32,7 @@ A tabela 1 apresenta os aplicativos sugeridos por cada membro do grupo durante a
 [3] Sinesp Cidadão. Disponível em: [Gov](https://www.gov.br/pt-br/apps/sinesp-cidadao).  Acesso em: 27 de Março de 2024.</br>
 [4] DETRAN-DF. Disponível em: [Google Play](https://play.google.com/store/apps/details?id=br.com.mesotec.detrandf&hl=pt_BR&gl=US). Acesso em: 27 de Março de 2024.</br>
 [5] Meu SUS Digital. Disponível em: [Google Play](https://play.google.com/store/apps/details?id=br.gov.datasus.cnsdigital&hl=pt_BR&gl=US). Acesso em: 27 de Março de 2024.</br>
-[6] Blender. Disponivel em: [Blender](https://www.blender.org). Acesso em:27 de Março de 2024 </br>
+[6] Blender. Disponível em: [Blender](https://www.blender.org). Acesso em:27 de Março de 2024 </br>
 [7] IBGE. Disponível em: [Google Play](https://play.google.com/store/apps/details?id=br.gov.ibge&hl=pt_BR&gl=US). Acesso em: 27 de Março de 2024.</br>
 [8] Carteira Digital de Trânsito. Disponível em: [Google Play](https://play.google.com/store/apps/details?id=br.gov.serpro.cnhe&hl=pt_BR&gl=US). Acesso em: 27 de Março de 2024.</br>
 
