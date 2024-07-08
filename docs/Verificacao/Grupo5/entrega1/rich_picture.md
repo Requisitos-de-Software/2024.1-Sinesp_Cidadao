@@ -57,7 +57,7 @@ _Autor: [Harryson Campos Martins](https://github.com/harry-cmartin)  2024._
 
 ## Referências Bibliográficas 
 
-> <a id="FTF1Ref" href="#FTF1">1.</a>  Introducing Rich Pictures - Rich Picture Drawning Guidelines 
+> <a id="FTF1Ref" href="#FTF1">1.</a>  Introducing Rich Pictures - Rich Picture Drawing Guidelines 
 
 > <a id="FTF2Ref" href="#FTF2">2.</a> Requisitos aula 04 - Milene Serrano e Maurício Serrano
 

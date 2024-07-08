@@ -19,7 +19,7 @@ Este documento foi produzido com base nos requisitos elicitados com persona pres
 
 <center>
   
-| identificador da histório   | caraterísticas |
+| identificador da história   | caraterísticas |
 | -------- | ----------- |
 | Título     | Nome da História de Usuário auto-explicativo  |
 | Descrição     |  Descreve "quem", "o que" e o "por que" da funcionalidade   |
@@ -430,7 +430,7 @@ Abaixo nas tabelas de 1 a 41 podem ser visto as Histórias de Usuários .
 
 <center>
   
-| HU29   | carcterísticas |
+| HU29   | características |
 | -------- | ----------- |
 | Título     | 	Notificar Sobre Atualizações de Vínculo  |
 | Descrição     |  Como um usuário do aplicativo Sinesp Cidadão, eu quero ser notificado sobre atualizações em vínculos de casos que acompanho, para ficar informado sobre novos desenvolvimentos e colaborar de maneira mais eficaz.   |
@@ -444,7 +444,7 @@ Abaixo nas tabelas de 1 a 41 podem ser visto as Histórias de Usuários .
 
 <center>
   
-| HU30   | carcterísticas |
+| HU30   | características |
 | -------- | ----------- |
 | Título     | 	Adicionar Novas Informações Sobre Perturbação da Vizinhança  |
 | Descrição     |  Como um usuário do aplicativo Sinesp Cidadão, eu quero poder adicionar novas informações sobre perturbações na vizinhança, para ajudar a comunidade e as autoridades a monitorarem e resolverem esses problemas.   |
@@ -458,7 +458,7 @@ Abaixo nas tabelas de 1 a 41 podem ser visto as Histórias de Usuários .
 
 <center>
   
-| HU31   | carcterísticas |
+| HU31   | características |
 | -------- | ----------- |
 | Título     | 	Acesso a Mapa da Região  |
 | Descrição     |  Como um usuário do aplicativo Sinesp Cidadão, eu quero ter acesso a um mapa interativo da região, para visualizar ocorrências, pontos de interesse e outras informações relevantes.   |
@@ -472,7 +472,7 @@ Abaixo nas tabelas de 1 a 41 podem ser visto as Histórias de Usuários .
 
 <center>
   
-| HU32   | carcterísticas |
+| HU32   | características |
 | -------- | ----------- |
 | Título     | 	Fornecer Feedback de Periculosidade de Áreas no Mapa  |
 | Descrição     |  Como um usuário do aplicativo Sinesp Cidadão, eu quero receber feedback sobre a periculosidade das áreas no mapa, para planejar minhas atividades com segurança e evitar zonas de risco.   |
@@ -486,7 +486,7 @@ Abaixo nas tabelas de 1 a 41 podem ser visto as Histórias de Usuários .
 
 <center>
   
-| HU33   | carcterísticas |
+| HU33   | características |
 | -------- | ----------- |
 | Título     | 	Aplicativo Deve Ser Constantemente Divulgado  |
 | Descrição     |  Como desenvolvedor do aplicativo Sinesp Cidadão, eu quero garantir que o aplicativo seja constantemente divulgado, para aumentar sua visibilidade e alcançar mais usuários que possam se beneficiar de suas funcionalidades.   |
@@ -500,7 +500,7 @@ Abaixo nas tabelas de 1 a 41 podem ser visto as Histórias de Usuários .
 
 <center>
   
-| HU34   | carcterísticas |
+| HU34   | características |
 | -------- | ----------- |
 | Título     | 	Visualizar Perfil  |
 | Descrição     |  Como um usuário do aplicativo Sinesp Cidadão, eu quero poder visualizar meu perfil, para acessar minhas informações pessoais, histórico de atividades e configurações de conta. |
@@ -514,7 +514,7 @@ Abaixo nas tabelas de 1 a 41 podem ser visto as Histórias de Usuários .
 
 <center>
   
-| HU35   | carcterísticas |
+| HU35   | características |
 | -------- | ----------- |
 | Título     | 	Visualizar Informações Institucionais  |
 | Descrição     |  Como um usuário do aplicativo Sinesp Cidadão, eu quero ter acesso a informações institucionais sobre o aplicativo, suas funções, políticas de privacidade e termos de uso, para entender melhor como ele opera e quais são meus direitos e responsabilidades. |
@@ -528,7 +528,7 @@ Abaixo nas tabelas de 1 a 41 podem ser visto as Histórias de Usuários .
 
 <center>
   
-| HU36   | carcterísticas |
+| HU36   | características |
 | -------- | ----------- |
 | Título     | 	Tirar Foto  |
 | Descrição     |  Como um usuário do aplicativo Sinesp Cidadão, eu quero ter a opção de tirar fotos diretamente pelo aplicativo, para anexar evidências visuais ao relatar ocorrências ou buscar pessoas desaparecidas. |
@@ -542,7 +542,7 @@ Abaixo nas tabelas de 1 a 41 podem ser visto as Histórias de Usuários .
 
 <center>
   
-| HU37   | carcterísticas |
+| HU37   | características |
 | -------- | ----------- |
 | Título     | 	Comparar Foto com Desaparecido, Procurado ou Mandado  |
 | Descrição     |  Como um usuário do aplicativo Sinesp Cidadão, eu quero poder comparar fotos tiradas ou enviadas com imagens de pessoas desaparecidas, procuradas ou com mandado de prisão, para ajudar na identificação e localização dessas pessoas. |
@@ -556,7 +556,7 @@ Abaixo nas tabelas de 1 a 41 podem ser visto as Histórias de Usuários .
 
 <center>
   
-| HU38   | carcterísticas |
+| HU38   | características |
 | -------- | ----------- |
 | Título     | 	Usar Funcionalidades Sem o Cadastro do Gov  |
 | Descrição     |  Como um usuário do aplicativo Sinesp Cidadão, eu quero ter acesso a certas funcionalidades do aplicativo sem precisar me cadastrar no Gov, para facilitar o uso inicial e incentivar a adoção do aplicativo. |
@@ -570,7 +570,7 @@ Abaixo nas tabelas de 1 a 41 podem ser visto as Histórias de Usuários .
 
 <center>
   
-| HU39   | carcterísticas |
+| HU39   | características |
 | -------- | ----------- |
 | Título     | 	Editar Perfil Gov  |
 | Descrição     |  Como um usuário do aplicativo Sinesp Cidadão, eu quero poder editar meu perfil Gov diretamente pelo aplicativo, para manter minhas informações atualizadas e corretas. |
@@ -584,7 +584,7 @@ Abaixo nas tabelas de 1 a 41 podem ser visto as Histórias de Usuários .
 
 <center>
   
-| HU40   | carcterísticas |
+| HU40   | características |
 | -------- | ----------- |
 | Título     | 	Banco de Dados Ser Constantemente Atualizado  |
 | Descrição     |  Como um desenvolvedor ou administrador do aplicativo Sinesp Cidadão, eu quero garantir que o banco de dados do aplicativo seja constantemente atualizado, para fornecer informações precisas e relevantes aos usuários. |
@@ -592,13 +592,13 @@ Abaixo nas tabelas de 1 a 41 podem ser visto as Histórias de Usuários .
 
 <center>
   
-<p style="text-align: center">Autor: <a href="https://github.com/Bittarx">Bittarxr</a></p>
+<p style="text-align: center">Autor: <a href="https://github.com/Bittarx">Bittar</a></p>
 
 <p style="text-align: center">Tabela 42 - História de Usuário Ler Texto para Deficientes Visuais</p>
 
 <center>
   
-| HU41   | carcterísticas |
+| HU41   | características |
 | -------- | ----------- |
 | Título     | 	Ler Texto para Deficientes Visuais  |
 | Descrição     |  Como um usuário deficiente visual do aplicativo Sinesp Cidadão, eu quero ter a opção de ouvir a leitura dos textos exibidos no aplicativo, para acessar todas as informações e funcionalidades de forma inclusiva e acessível. |

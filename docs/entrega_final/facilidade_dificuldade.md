@@ -6,7 +6,7 @@ Desde o início do desenvolvimento do projeto, enfrentamos diversos problemas qu
 
 ## Metodologia
 
-Para registrar todas a dificuldes e facilidades que cada membro do grupo teve, abaixo será disponibilizados tópicos para cada membro da equipe deixar seu depoimento.
+Para registrar todas a dificuldades e facilidades que cada membro do grupo teve, abaixo será disponibilizados tópicos para cada membro da equipe deixar seu depoimento.
 
 ## Resultados
 
@@ -18,13 +18,14 @@ Bom, acredito que, em termos de dificuldade, o que mais me causou problemas foi 
 
 #### Harryson Martins
 
-O que mais me causou dificuldades foi o tempo necessário para aprender, aplicar e criar a documentação necessária para o projeto. Já para as facilidades, posso citar as listas oferecidas no inicio d projeto que davam um norte do que fazer, os repositórios disponibilizados para consultas de artefatos e os feedbacks constantes dos monitores.
+O que mais me causou dificuldades foi o tempo necessário para aprender, aplicar e criar a documentação necessária para o projeto. Já para as facilidades, posso citar as listas oferecidas no inicio do projeto que davam um norte do que fazer, os repositórios disponibilizados para consultas de artefatos e os feedbacks constantes dos monitores.
 
 #### Ian Lucca
 
 
 #### Italo Bruno
 
+O que tive mais dificuldades foi entender os conceitos das técnicas e como aplicar elas no projeto devido ao fato de que algumas tem vários métodos de se utilizar, além de que estava difícil conciliar o tempo da disciplina com o trabalho. As facilidades para mim foram que basicamente a disciplina é documentação, então não precisava ficar horas tentando fazer algo.
 
 #### Marcos Bittar
 
@@ -33,5 +34,6 @@ O que mais me causou dificuldades foi o tempo necessário para aprender, aplicar
 
 | Versão | Data   | Descrição | Autor(es) | Revisor(es)     |
 | ------ | ---------- | ---------------- | ------------------ | ----------- |
-| `1.0`    | 06/07/2024 | Criação do Documento | [Flávio Melo](https://github.com/flavioovatsug) | [Harryson Campos Martins](https://github.com/harry-cmartin)|
+| `1.0` | 06/07/2024 | Criação do Documento | [Flávio Melo](https://github.com/flavioovatsug) | [Harryson Campos Martins](https://github.com/harry-cmartin)|
 |`1.1`|07/07/2024| Adição de facilidades e dificuldades |[Harryson Campos Martins](https://github.com/harry-cmartin)|[Flávio Melo](https://github.com/flavioovatsug)|
+|`1.1`|07/07/2024| Adição de facilidades e dificuldades |[Italo Bruno](https://github.com/italobrunom)|[Ian](https://github.com/IanLucca12)|

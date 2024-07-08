@@ -12,7 +12,7 @@ Para esta verificação encontradas nas tabelas 1 e 2 foi utilizada uma técnica
 
 A inspeção foi realizada de forma individual por cada integrante da equipe através do método definido de checklists.
 
-Por fim a validação da tabela 3 foi feita por meio de prototipação e reuisitos anteriormente elicitados.
+Por fim a validação da tabela 3 foi feita por meio de prototipação e requisitos anteriormente elicitados.
 
 
 
@@ -30,11 +30,11 @@ Tabela 1: Verificação Grupo 6
 | [Planejamento 2](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo6/entrega2/planejamento_entr_2/) | [Ian Lucca](https://github.com/IanLucca12)    |   [Marcos Bittar](https://github.com/Bittarx)          |
 | [Verifica In or Out](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo6/entrega2/verifica_InOrOut/)     | [Ian Lucca](https://github.com/IanLucca12)   | [Christian Hirsch Santos](https://github.com/crstyhs)   |
 | [verifica brainstorming](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo6/entrega2/verifica_Brainstorming/)     |  [Ian Lucca](https://github.com/IanLucca12)   | [Flávio Melo](https://github.com/flavioovatsug)    |
-| [Verifica moscow](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo6/entrega2/verifica_MosCow/)     |  [Ian Lucca](https://github.com/IanLucca12)  | [Flávio Melo](https://github.com/flavioovatsug)    |
+| [Verifica MosCow](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo6/entrega2/verifica_MosCow/)     |  [Ian Lucca](https://github.com/IanLucca12)  | [Flávio Melo](https://github.com/flavioovatsug)    |
 | [verifica observações](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo6/entrega2/verifica_Observacoes/)     | [Ian Lucca](https://github.com/IanLucca12)  | [Marcos Bittar](https://github.com/Bittarx)    |
 | [verifica requisitos elicitados](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo6/entrega2/verifica_RequisitosElicitados/)     | [Ian Lucca](https://github.com/IanLucca12)   |  [Harryson Campos Martins](https://github.com/harry-cmartin)   |
 | [verifica three scales](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/entrega2/Grupo6/verifica_ThreeScales.md)     | [Ian Lucca](https://github.com/IanLucca12)   | [Italo Bruno](https://github.com/ItaloBrunoM)   |
-| [Verifica questionario](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/entrega2/Grupo6/verifica_questionario.md)     |  [Ian Lucca](https://github.com/IanLucca12)  | [Marcos Bittar](https://github.com/Bittarx)    |
+| [Verifica questionário](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/entrega2/Grupo6/verifica_questionario.md)     |  [Ian Lucca](https://github.com/IanLucca12)  | [Marcos Bittar](https://github.com/Bittarx)    |
 | [Verifica entrevista ](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo6/entrega2/verifica_entrevista/)     | [Ian Lucca](https://github.com/IanLucca12)   | [Italo Bruno](https://github.com/ItaloBrunoM)    |
 | **Entrega 3**       |     |     |
 | [Planejamento 3](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo6/entrega3/planejamento_entr_3/) | [Christian Hirsch Santos](https://github.com/crstyhs) e  [Marcos Bittar](https://github.com/Bittarx)   | [Italo Bruno](https://github.com/ItaloBrunoM)           |
@@ -68,11 +68,11 @@ Tabela 2: Verificação Grupo 5
 | [Planejamento 2](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo5/entrega2/planejamento_entr_2/) |  [Christian Hirsch Santos](https://github.com/crstyhs) [Ian Lucca](https://github.com/IanLucca12)    |          |
 | [Verifica 100$](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo5/entrega2/verifica_100%24/)     | [Ian Lucca](https://github.com/IanLucca12)   |  [Italo Bruno](https://github.com/ItaloBrunoM)     |
 | [verifica FTF](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo5/entrega2/verifica_FTF/)     |  [Ian Lucca](https://github.com/IanLucca12)   |  [Italo Bruno](https://github.com/ItaloBrunoM)      |
-| [Verifica moscow](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo5/entrega2/verifica_MosCow/)     |  [Ian Lucca](https://github.com/IanLucca12)  | [Flávio Melo](https://github.com/flavioovatsug)    |
+| [Verifica MosCow](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo5/entrega2/verifica_MosCow/)     |  [Ian Lucca](https://github.com/IanLucca12)  | [Flávio Melo](https://github.com/flavioovatsug)    |
 | [verifica three scales](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo5/entrega2/verifica_ThreeScales/)     | [Ian Lucca](https://github.com/IanLucca12)   | [Italo Bruno](https://github.com/ItaloBrunoM)   |
 | [verifica requisitos elicitados](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo5/entrega2/verifica_RequisitosElicitados/)     | [Christian Hirsch Santos](https://github.com/crstyhs)  |  [Harryson Campos Martins](https://github.com/harry-cmartin)   |
 | [verifica analise de documento](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo5/entrega2/verifica_documento/)     | [Christian Hirsch Santos](https://github.com/crstyhs)    | [Marcos Bittar](https://github.com/Bittarx) |
-| [Verifica questionario](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo5/entrega2/verifica_questionario/)     |  [Christian Hirsch Santos](https://github.com/crstyhs)    | [Marcos Bittar](https://github.com/Bittarx)  |
+| [Verifica questionário](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo5/entrega2/verifica_questionario/)     |  [Christian Hirsch Santos](https://github.com/crstyhs)    | [Marcos Bittar](https://github.com/Bittarx)  |
 | [Verifica entrevista ](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo5/entrega2/verifica_entrevista/)     |  [Christian Hirsch Santos](https://github.com/crstyhs)    | [Italo Bruno](https://github.com/ItaloBrunoM)    |
 | [Verifica analise de interface ](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo5/entrega2/verifica_interface/)     | [Christian Hirsch Santos](https://github.com/crstyhs)     | [Italo Bruno](https://github.com/ItaloBrunoM)    |
 | [Verifica introspecção ](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo5/entrega2/verifica_introspec%C3%A7%C3%A3o.md)     | [Christian Hirsch Santos](https://github.com/crstyhs)    | [Italo Bruno](https://github.com/ItaloBrunoM)    |
