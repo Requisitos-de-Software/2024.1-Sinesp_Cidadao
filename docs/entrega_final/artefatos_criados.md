@@ -15,6 +15,7 @@ A estrutura a ser seguida para a elaboração da documentação será da seguint
 ### Planejamento
 
 Tabela 1: Planejamento
+
 | Artefato           | Autor(es)        | Revisor(es)       |
 |--------------------|------------------|-------------------|
 | [App selecionado](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Planejamento/App_selecionado/)| [Christian Hirsch Santos](https://github.com/crstyhs)     | [Harryson Campos Martins](https://github.com/harry-cmartin) e [Italo Bruno](https://github.com/ItaloBrunoM)         |
@@ -35,7 +36,9 @@ _Autor:[Christian Hirsch Santos](https://github.com/crstyhs), 2024._
 <center>
 
 ### Elicitação 
+
 Tabela 2: Elicitação
+
 | Artefato           | Autor(es)        | Revisor(es)       |
 |--------------------|------------------|-------------------|
 | **Usuário**       |     |     |
@@ -68,6 +71,7 @@ _Autor:[Christian Hirsch Santos](https://github.com/crstyhs), 2024._
 <center>
 
 Tabela 3: Modelagem - Etapa 3
+
 | Artefato           | Autor(es)        | Revisor(es)       |
 |--------------------|------------------|-------------------|
 | [Casos de uso](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Modelagem/Casos_De_uso/) | [Italo Bruno](https://github.com/ItaloBrunoM) e  [Harryson Campos Martins](https://github.com/harry-cmartin)    | [Christian Hirsch Santos](https://github.com/crstyhs) e  [Flávio Melo](https://github.com/flavioovatsug)        |
@@ -85,6 +89,7 @@ _Autor:[Christian Hirsch Santos](https://github.com/crstyhs), 2024._
 <center>
 
 Tabela 4: Modelagem - Etapa 4
+
 | Artefato           | Autor(es)        | Revisor(es)       |
 |--------------------|------------------|-------------------|
 | [História de usuário](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Modelagem/Agil/Historias_de_Usuario/) | [Christian Hirsch Santos](https://github.com/crstyhs) e  [Marcos Bittar](https://github.com/Bittarx)   | [Italo Bruno](https://github.com/ItaloBrunoM)           |
@@ -139,6 +144,7 @@ _Autor:[Christian Hirsch Santos](https://github.com/crstyhs), 2024._
 <center>
 
 Tabela 6: Verificação e validação 2
+
 | Artefato           | Autor(es)        | Revisor(es)       |
 |--------------------|------------------|-------------------|
 | **Entrega 1**       |     |     |
@@ -187,6 +193,7 @@ _Autor:[Christian Hirsch Santos](https://github.com/crstyhs), 2024._
 <center>
 
 Tabela 7: Pós-rastreabilidade
+
 | Artefato           | Autor(es)        | Revisor(es)       |
 |--------------------|------------------|-------------------|
 | [Backward from](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/P%C3%B3s-Rastreabilidade/backward/) | [Italo Bruno](https://github.com/ItaloBrunoM)    e  [Flávio Melo](https://github.com/flavioovatsug)  |      [Christian Hirsch Santos](https://github.com/crstyhs)   |
@@ -201,15 +208,8 @@ _Autor:[Christian Hirsch Santos](https://github.com/crstyhs), 2024._
 
 
 
-
-
-## Referência Bibliografia
-
-> - 
-
-
 ## Histórico de Versão
 
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-------:|
-|`1.0`| 06/07/2024 | Criação do documento |[Christian Hirsch Santos](https://github.com/crstyhs)  ||
+|`1.0`| 06/07/2024 | Criação do documento |[Christian Hirsch Santos](https://github.com/crstyhs)  |[Ian](https://github.com/IanLucca12) |
