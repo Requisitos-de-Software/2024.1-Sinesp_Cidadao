@@ -58,7 +58,8 @@ _Autor:[Christian Hirsch Santos](https://github.com/crstyhs), 2024._
 
 <center>
 
-Tabela 2: Verificação Grupo 5
+Tabela 2: Verificação Grupo 
+
 | Artefato           | Autor(es)        | Revisor(es)       |
 |--------------------|------------------|-------------------|
 | **Entrega 1**       |     |     |
@@ -105,6 +106,7 @@ _Autor:[Christian Hirsch Santos](https://github.com/crstyhs), 2024._
 <center>
 
 Tabela 3: Validação
+
 | Artefato           | Autor(es)        | Revisor(es)       |
 |--------------------|------------------|-------------------|
 | [Protótipo](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/Verificacao/Grupo5/validacao/Prototipo/) | [Italo Bruno](https://github.com/ItaloBrunoM) , [Marcos Bittar](https://github.com/Bittarx) ,  [Christian Hirsch Santos](https://github.com/crstyhs) , [Flávio Melo](https://github.com/flavioovatsug),[Ian Lucca](https://github.com/IanLucca12) e [Harryson Campos Martins](https://github.com/harry-cmartin)     |    [Flávio Melo](https://github.com/flavioovatsug) , [Christian Hirsch Santos](https://github.com/crstyhs) e  [Italo Bruno](https://github.com/ItaloBrunoM)      |
@@ -122,4 +124,4 @@ _Autor:[Christian Hirsch Santos](https://github.com/crstyhs), 2024._
 
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-------:|
-|`1.0`| 07/07/2024 | Criação do documento |[Christian Hirsch Santos](https://github.com/crstyhs)  | |
+|`1.0`| 07/07/2024 | Criação do documento |[Christian Hirsch Santos](https://github.com/crstyhs)  | [Harryson Campos Martins](https://github.com/harry-cmartin) |
