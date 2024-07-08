@@ -28,7 +28,7 @@ O que mais me causou dificuldades com relação à matéria de Requisitos de Sof
 O que tive mais dificuldades foi entender os conceitos das técnicas e como aplicar elas no projeto devido ao fato de que algumas tem vários métodos de se utilizar, além de que estava difícil conciliar o tempo da disciplina com o trabalho. As facilidades para mim foram que basicamente a disciplina é documentação, então não precisava ficar horas tentando fazer algo.
 
 #### Marcos Bittar
-
+A maior dificuldade que tive nessa matéria foi programar o meu tempo de maneira eficiente, dado que não lido bem com prazos apertados. Além disso, o simples fato do trabalho ser em grupo me causa grande ansiedade, dado problemas pessoais que possuo com tal tipo de trabalho. Apesar disso, os membros de meu grupo foram extremamente compreensivos e me ajudaram em minhas dificuldades, por meio da distribuição e atribuição clara de tarefas.
 
 ## Histórico de Versões
 
