@@ -34,7 +34,7 @@ Fonte:  [Ian Lucca Soares Mesquita](https://github.com/IanLucca12)
 
 ## Histórico de Versões
   
-| Versão | Data       | Descrição          | Autor(es )                                        | Revisor(es)                                    |
-| ------ | ---------- | ------------------ | ------------------------------------------------ | ---------------------------------------------- |
+| Versão | Data| Descrição| Autor(es )| Revisor(es)|
+| ------ | ---------- | ------------------ | ------------------------- | -------------------------------- |
 | `1.0`  | 07/07/2024 | Criação da página. | [Ian Lucca Soares Mesquita](https://github.com/IanLucca12) | [Harryson Campos Martins](https://github.com/harry-cmartin) |
 | `1.1`  | 08/07/2024 | Criação da página. | [Christian Hirsch Santos](https://github.com/crstyhs) | [Ian Lucca Soares Mesquita](https://github.com/IanLucca12)  |
