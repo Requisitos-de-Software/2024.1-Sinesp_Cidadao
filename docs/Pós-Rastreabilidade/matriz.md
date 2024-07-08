@@ -2,7 +2,7 @@
 
 ## Introdução
 
-A Matriz é o documento responsável em agregar as rastreabolidades Forward-from e Backward-from em um unico documento contendo de onde foram elicitados os requisitos e onde estão sendo implementados
+A Matriz é o documento responsável em agregar as rastreabilidades Forward-from e Backward-from em um único documento contendo de onde foram elicitados os requisitos e onde estão sendo implementados
 
 ## Metodologia
 

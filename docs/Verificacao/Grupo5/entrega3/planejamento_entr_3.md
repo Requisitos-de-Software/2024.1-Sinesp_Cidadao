@@ -151,7 +151,7 @@ _Autor: [Flávio Melo](https://github.com/flavioovatsug), 2024._
 
 </center>
 
-## Gravação da Verficação 
+## Gravação da Verificação 
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KtQvdwuilic?si=yFJq_BSbGBSF0_Kn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>

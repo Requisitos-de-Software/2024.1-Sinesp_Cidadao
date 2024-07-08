@@ -30,14 +30,14 @@ Tabela 01 - Requisitos elicitados
 | AIU12  | Vincular ao carro | RF| Implementado |
 | AIU13  | Buscar por mandados de prisão| RF| Implementado |
 | AIU14  | Fornecer informações sobre mandados de prisão| RF| Implementado |
-| AIU15  | Visualizar informações institucinias | RF| Implementado |
+| AIU15  | Visualizar informações institucionais | RF| Implementado |
 | AIU16  | Buscar por procurados | RF| Implementado |
 | AIU17  | Fornecer informações sobre procurados | RF| Implementado |
 | AIU18  | Requisitar ajuda | RF| Implementado |
 | AIU19  | Sair do aplicativo| RF| Implementado |
 | AIU20  | Anunciar pertubação da vizinhança | RF| Implementado|
 | AIU21  | Retornar ao início | RF| Implementado |
-| AIU22  | Salvar historico de busca | RF| Implementado |
+| AIU22  | Salvar histórico de busca | RF| Implementado |
 | AIU23  | Disponibilizar filtro de pesquisa | RF| Implementado |
 | AIU24  | Rápida disponibilização de informações | RNF| Implementado |
 | AIU25  | Possibilitar compartilhamento das informações de placa | RF| Implementado |

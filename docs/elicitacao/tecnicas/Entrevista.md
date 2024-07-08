@@ -27,7 +27,7 @@ Tabela 1 - Questões levantadas
 | Quando você se sentiu com maior necessidade de utilizar o aplicativo? |  Aberta|When |
 | Quais são os recursos ou funcionalidades que você gostaria que fossem adicionados ao Sinesp Cidadão para melhorar sua experiência ou desempenho no trabalho? |  Aberta| What|
 | Para quem o Sinesp Cidadão foi criado em sua opinião? | Fechada| Who |
-| Quanto tempo leva para saber utilizar o sinesp cidadão? Você sente que recebeu treinamento adequado para utilizar o aplicativo? |    Fechada| How much|
+| Quanto tempo leva para saber utilizar o Sinesp Cidadão? Você sente que recebeu treinamento adequado para utilizar o aplicativo? |    Fechada| How much|
 | Com qual frequência você usa o Sinesp Cidadão | Fechada| WHat |
 | Como você descreve sua experiência geral com o aplicativo|Fechada |How |
 

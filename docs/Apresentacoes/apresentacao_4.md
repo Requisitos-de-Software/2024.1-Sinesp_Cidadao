@@ -8,7 +8,7 @@ Esta página é destinada à apresentação da etapa  do projeto de Requisitos d
 
 1. Backlog
 2. NFR Framework
-3. User Storys
+3. User Stories
 
 ## Apresentação
 

@@ -64,7 +64,7 @@ Tabela 3: Cronograma planejado etapa 2.
 | Técnicas de elicitação: Casos de uso | 05/04 | 08/04 | Christian, Italo,Bruno | Marcos Bittar | 08/04 |
 | Reunião com o usuário para elicitação | 10/04 | 11/04 |Christian, Marcos Bittar | Flávio Gustavo | 11/04 |
 | Ata de Reunião | 14/04 | 14/04 | Marcos Bittar | Ian Lucca | 14/04 |
-| Técnicas de Priorização: Return Over Investnent (ROI) | 12/04 | 14/04 | Marcos Bittar, Harryson | Christian, Ian lucca | 14/04 |
+| Técnicas de Priorização: Return Over Investment (ROI) | 12/04 | 14/04 | Marcos Bittar, Harryson | Christian, Ian lucca | 14/04 |
 | Técnicas de Priorização: MosCow | 12/04 | 14/04 | Flávio Gustavo, Italo Bruno| Harryson | 14/04 |
 | Reunião com o usuário para priorização | 15/04 | 16/04 | Marcos Bittar, Christian | Ian lucca, Flávio Gustavo | 16/04 |
 | Gravação da apresentação | 16/04 | 17/04 | Ian Lucca, Christian, Marcos Bittar, Italo Bruno, Harryson, Flávio Gustavo | Ian Lucca, Christian, Marcos Bittar, Italo Bruno, Harryson, Flávio Gustavo | 17/04 |
@@ -105,10 +105,10 @@ Tabela 5: Cronograma planejado etapa 3.
 | Ata de Reunião |  19/04 | 19/04 | Harryson |  19/04  | Italo Bruno |
 | Modelagem de Requisitos: Cenários|   20/04 | 22/04 | Flávio Gustavo e Christian |  22/04   | Harryson  |
 | Modelagem de Requisitos: Léxico  |  22/04|  24/04 |  Italo Bruno e Ian Lucca | 24/04  | Marcos Bittar |
-| Modelagem de Requisitos: Use Case |  24/05 | 26/04 |  Flávio Guustavo e Harryson |  26/04   |  Flávio Gustavo |
+| Modelagem de Requisitos: Use Case |  24/05 | 26/04 |  Flávio Gustavo e Harryson |  26/04   |  Flávio Gustavo |
 | Modelagem de Requisitos: Especificação Suplementar |  26/04 |29/04 | Christian e Marcos Bittar  |  29/04  | Italo Bruno  |
 | Gravação da Apresentação e  Entrega |  03/05|  04/05  | Flávio Gustavo, Christian, Italo Bruno, Harryson, Marcos Bittar, Ian Lucca, |  04/05   | Flávio Gustavo, Christian, Italo Bruno, Marcos Bittar, Ian Lucca, Harryson |
-| Corrreção pós apresentação |  07/05 | 08/05 | Flávio Gustavo, Christian, Italo Bruno, Ian Lucca, Harryson,  Marcos Bittar |  08/05  | Flávio Gustavo, Christian, Italo Bruno, Ian Lucca, Harryson, Marcos Bittar |
+| Correção pós apresentação |  07/05 | 08/05 | Flávio Gustavo, Christian, Italo Bruno, Ian Lucca, Harryson,  Marcos Bittar |  08/05  | Flávio Gustavo, Christian, Italo Bruno, Ian Lucca, Harryson, Marcos Bittar |
 
 
 
@@ -149,7 +149,7 @@ Tabela 7: Cronograma planejado etapa 4.
 | RNF: Requisitos não funcionais | 09/05 | 10/05 | Italo Bruno | 10/05 | Marcos Bittar |
 | Softgoals | 09/05 | 10/05 | Ian Lucca e Flávio Gustavo | 10/05 |  Christian, Harryson |
 | Gravação de apresentação | 12/05 | 13/05 | Marcos Bittar, Italo Bruno, Harryson, Christian, Flávio Gustavo< Ian Lucca | 13/05 |  Marcos Bittar, Italo Bruno, Harryson, Christian, Flávio Gustavo, Ian Lucca | 
-| Corrreção pós apresentação | 14/05 | 17/05 | Marcos Bittar, Italo Bruno, Harryson, Christian, Flávio Gustavo, Ian Lucca | 17/05 |  Marcos Bittar, Italo Bruno, Harryson, Christian, Flávio Gustavo, Ian Lucca |
+| Correção pós apresentação | 14/05 | 17/05 | Marcos Bittar, Italo Bruno, Harryson, Christian, Flávio Gustavo, Ian Lucca | 17/05 |  Marcos Bittar, Italo Bruno, Harryson, Christian, Flávio Gustavo, Ian Lucca |
 
 
 _Autor: [Harryson Campos Martins](https://github.com/harry-cmartin),  2024._
@@ -162,7 +162,7 @@ Tabela 8: Cronograma executado etapa 4.
 | Ata de Reunião | 27/05 | 27/05 | Harryson |
 | Modelagem de requisitos: Histórias de usuários | 15/05 | 20/05 | Ian Lucca e Christian |
 | Modelagem de requisitos: Backlog |15/05 | 20/05 | Harryson e Flávio Gustavo |
-| NFR: Framework | 15/05 | 20/05 | Ìtalo e Marcos Bittar |
+| NFR: Framework | 15/05 | 20/05 | Italo e Marcos Bittar |
 | Gravação de apresentação | 26/05 | 26/05 | Marcos Bittar, Italo Bruno, Harryson, Christian, Flávio Gustavo, Ian Lucca |
 | Correção pós apresentação | 27/05 | 06/06 | Marcos Bittar, Italo Bruno, Harryson, Christian, Flávio Gustavo, Ian Lucca |
 
