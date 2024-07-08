@@ -6,7 +6,7 @@ A rastreabilidade "backward-from" é muito importante na engenharia de software 
 
 ## Metodologia
 
-Adotamos o meta-modelo de toranzo, seus níveis e os principais elos de rastreabilidade.
+Adotamos o meta-modelo de Toranzo, seus níveis e os principais elos de rastreabilidade.
 
 Os principais níveis são:
 > - Ambiental: Analisa fatores externos como mercado, regulamentações e condições econômicas que influenciam o sistema. 

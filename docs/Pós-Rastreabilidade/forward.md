@@ -6,12 +6,12 @@
 De acordo com o livro "Requirements Engineering Fundamentals" de Klaus Pohl e Chris Rupp, rastreabilidade
 de requisitos é a capacidade de traçar rastros de requisitos durante toda a vida de um software. A técnica Forward-from tem por objetivo ligar os requisitos presentes a artefatos de desenho/protótipo ou implementação.
 
-Logo, para esse dicumento, a intenção é aplicar a técnica de Forward-from nos [requisitos elicitados](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/Requisitos_elicitados/) do app Sinesp.
+Logo, para esse documento, a intenção é aplicar a técnica de Forward-from nos [requisitos elicitados](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/Requisitos_elicitados/) do app Sinesp.
 
 
 ## Metodologia
 
-Para aplicação dessa técinica foi planejado o relacionamento de cada requsto com sua respectiva história de usuário, léxico, tema ou épico e cenário presente. Além disso para os requistos funcionais e implemntados será mostrada a implementação no app, já para os não funcionais serão relacionados ao NFR respectivo, Especificação Suplementar e onde for obtido.
+Para aplicação dessa técnica foi planejado o relacionamento de cada requisito com sua respectiva história de usuário, léxico, tema ou épico e cenário presente. Além disso para os requisitos funcionais e implementados será mostrada a implementação no app, já para os não funcionais serão relacionados ao NFR respectivo, Especificação Suplementar e onde for obtido.
 
 ## Mapeamento
 
@@ -59,7 +59,7 @@ Tabela 2: RF01 - Logar pelo Gov
 |História de usuário | HU01 |
 | Elicitação | [AIU2](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDaInterface/) , [IP2](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/Introspeccao/), [DOC10](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDeDocumento/) |
 | Caso de uso| |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX07 |
 |Implementação| ![image](../assets/implementacoes_dos_reqs/entrar_pelogov.png)|
 
@@ -79,7 +79,7 @@ Tabela 2 : RF02 - Buscar por veículo
 |História de usuário | HU02 |
 | Elicitação | [AIU4](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDaInterface/), [IP4](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/Introspeccao/) |
 | Caso de uso| UC01 |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX08 |
 |Implementação| ![image](../assets/implementacoes_dos_reqs/informar_placa.png)|
 
@@ -98,7 +98,7 @@ Tabela 3 : RF03 - Informar dados do veículo
 |História de usuário | HU03 |
 | Elicitação | [AIU5](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDaInterface/), [IP5](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/Introspeccao/), [DOC1](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDeDocumento/) |
 | Caso de uso| UC01 |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX10 |
 |Implementação|![image](../assets/implementacoes_dos_reqs/informar_placa.png)|
 
@@ -117,7 +117,7 @@ Tabela 4 : RF04	- Adicionar carro como roubado
 |História de usuário | HU03 |
 | Elicitação |  [AIU6](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDaInterface/), [IP6](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/Introspeccao/) |
 | Caso de uso| - |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX05 |
 |Implementação||
 
@@ -137,7 +137,7 @@ Tabela 5 : RF05 - Listar pessoas desaparecidas
 |História de usuário | HU04 |
 | Elicitação | [AIU9](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDaInterface/), [IP9](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/Introspeccao/) |
 | Caso de uso| UC02 |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX10 |
 |Implementação|![image](../assets/implementacoes_dos_reqs/mostra_desaparecidos.png)|
 
@@ -157,7 +157,7 @@ Tabela 6 : RF06 - Vincular ao desaparecido
 |História de usuário | HU06 |
 | Elicitação |  [AIU11](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDaInterface/), [IP11](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/Introspeccao/) |
 | Caso de uso| UC02 |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX05 |
 |Implementação||
 
@@ -177,7 +177,7 @@ Tabela 7 : RF07 - Vincular ao carro
 |História de usuário | HU07 |
 | Elicitação |  [AIU12](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDaInterface/), [IP12](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/Introspeccao/) |
 | Caso de uso| UC01 |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX05 |
 |Implementação||
 
@@ -197,7 +197,7 @@ Tabela 8 : RF08	- Buscar por mandados de prisão
 |História de usuário | HU08 |
 | Elicitação |[AIU13](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDaInterface/), [IP13](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/Introspeccao/), [DOC2](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDeDocumento/)  |
 | Caso de uso| UC03 |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX10 |
 |Implementação|![image](../assets/implementacoes_dos_reqs/buscarmandados.png)|
 
@@ -217,7 +217,7 @@ Tabela 9: RF09 - Fornecer informações sobre mandados de prisão
 |História de usuário | HU09 |
 | Elicitação | [AIU14](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDaInterface/), [IP14](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/Introspeccao/), [DOC2](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDeDocumento/) |
 | Caso de uso| UC03 |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX10 , LX03|
 |Implementação||
 
@@ -237,7 +237,7 @@ Tabela 10 : RF10 - Buscar por procurados
 |História de usuário | HU10 |
 | Elicitação |  [AIU16](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDaInterface/),  [IP16](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/Introspeccao/), [DOC4](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDeDocumento/) |
 | Caso de uso| UC04 |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX10|
 |Implementação|![image](../assets/implementacoes_dos_reqs/mostra_procurados.png)|
 
@@ -257,7 +257,7 @@ Tabela 11 : RF11 - Fornecer informações sobre procurados
 |História de usuário | HU11 |
 | Elicitação | [AIU17](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDaInterface/), [IP17](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/Introspeccao/) |
 | Caso de uso| UC04 |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX10 |
 |Implementação|![image](../assets/implementacoes_dos_reqs/mostra_procurados.png)|
 
@@ -276,7 +276,7 @@ Tabela 12 : RF12 - Sair do aplicativo
 |História de usuário | HU12 |
 | Elicitação | [AIU19](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDaInterface/) |
 | Caso de uso|  |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX01, LX02 |
 |Implementação|![image](../assets/implementacoes_dos_reqs/sair_do_app.png)|
 
@@ -295,7 +295,7 @@ Tabela 13 : RF13 - Anunciar perturbação da vizinhança
 |História de usuário |HU13  |
 | Elicitação |[AIU20](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDaInterface/), [IP20](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/Introspeccao/)  |
 | Caso de uso| UC05 |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX02|
 |Implementação|![image](../assets/implementacoes_dos_reqs/particpacao_cidada.png)|
 
@@ -315,7 +315,7 @@ Tabela 14 : RF15 - Disponibilizar restrição
 |História de usuário | - |
 | Elicitação | [AP2](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDeProtocolo/), [ENT2](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/Entrevista/) |
 | Caso de uso| - |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX05 |
 |Implementação||
 
@@ -336,7 +336,7 @@ Tabela 15 : RF16 - Visualizar informações institucionais
 |História de usuário | HU35 |
 | Elicitação |  [AIU15](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDaInterface/)  |
 | Caso de uso| UC04 |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX01,LX10 |
 |Implementação|![image](../assets/implementacoes_dos_reqs/sobre_do_app.png)|
 
@@ -357,7 +357,7 @@ Tabela 16 : RF18 - Disponibilizar diversas opções de denúncia
 |História de usuário | HU16 |
 | Elicitação |  [AP5](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDeProtocolo/), [ENT5](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/Entrevista/), [DOC5](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDeDocumento/), [DOC6](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDeDocumento/), [DOC7](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDeDocumento/), [DOC8](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDeDocumento/), [DOC9](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDeDocumento/) |
 | Caso de uso| - |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX02 |
 |Implementação||
 
@@ -377,7 +377,7 @@ Tabela 17 : RF22 - Ligar para a polícia
 |História de usuário | HU21 |
 | Elicitação | [AIU7](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDaInterface/), [IP7](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/Introspeccao/)  |
 | Caso de uso| UC05 |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX01, LX02 |
 |Implementação||
 
@@ -396,7 +396,7 @@ Tabela 18 : RF23 - Visualizar vínculos
 |História de usuário | HU22 |
 | Elicitação |[AIU8](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDaInterface/)  |
 | Caso de uso| UC01, UC04 |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX05, LX10 |
 |Implementação||
 
@@ -415,7 +415,7 @@ Tabela 19: RF24 - Requisitar ajuda
 |História de usuário | HU23 |
 | Elicitação |[AIU18](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDaInterface/)  |
 | Caso de uso|  |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX02 |
 |Implementação|![image](../assets/implementacoes_dos_reqs/requisitar_ajuda.png)|
 
@@ -435,7 +435,7 @@ Tabela 20 : RF25 - Retornar ao início
 |História de usuário |HU24  |
 | Elicitação | [AIU21](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDaInterface/) |
 | Caso de uso|  |
-| Cenário|  Todos os cénarios|
+| Cenário|  Todos os cenários|
 | Léxico | LX01, LX02 |
 |Implementação|![image](../assets/implementacoes_dos_reqs/inicio.png)|
 
@@ -454,7 +454,7 @@ Tabela 21 : RF26 - Salvar histórico de busca
 |História de usuário | HU25|
 | Elicitação |  [AIU22](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDaInterface/), [IP15](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/Introspeccao/) |
 | Caso de uso|  |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX11, LX12 |
 |Implementação||
 
@@ -474,7 +474,7 @@ Tabela 22 : RF27 - Disponibilizar filtro de pesquisa
 |História de usuário | HU26 |
 | Elicitação |[AIU23](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDaInterface/)  |
 | Caso de uso|  |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX08 |
 |Implementação||
 
@@ -493,7 +493,7 @@ Tabela 23: RF28 - Possibilitar compartilhamento das informações de placa
 |História de usuário |HU27  |
 | Elicitação | [AIU25](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDaInterface/)  |
 | Caso de uso|  |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX02 |
 |Implementação||
 
@@ -512,7 +512,7 @@ Tabela 24: RF33 - Visualizar perfil
 |História de usuário | HU34 |
 | Elicitação | [AIU1](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDaInterface/) |
 | Caso de uso|  |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX01, LX02 |
 |Implementação|![image](../assets/implementacoes_dos_reqs/visualizar_perfil.png)|
 
@@ -532,7 +532,7 @@ Tabela 24 : RF35 - Editar perfil Gov
 |História de usuário | HU39 |
 | Elicitação |[AIU29](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDaInterface/)  |
 | Caso de uso|  |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX01, LX06 |
 |Implementação|![image](../assets/implementacoes_dos_reqs/editar_perfil_gov.png)|
 
@@ -551,7 +551,7 @@ Tabela 25: RF36 - Buscar Por Pessoa Desaparecida
 |História de usuário | HU04 |
 | Elicitação | [DOC3](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDeDocumento/) |
 | Caso de uso|  UC02|
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX10, LX13 |
 |Implementação|![image](../assets/implementacoes_dos_reqs/mostra_desaparecidos.png)|
 
@@ -571,7 +571,7 @@ Tabela 26: RF37 - 	Cadastrar o próprio veículo
 |História de usuário | - |
 | Elicitação | [DOC11](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDeDocumento/) |
 | Caso de uso|  |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX02, LX05 |
 |Implementação|![image](../assets/implementacoes_dos_reqs/mostra_informacoes_dos_veiculos.png)|
 
@@ -590,7 +590,7 @@ Tabela 27: RF38 - Registrar Furto ou Roubo de veículo
 |História de usuário | - |
 | Elicitação | [DOC12](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDeDocumento/) |
 | Caso de uso| UC05 |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX14  |
 |Implementação||
 
@@ -610,7 +610,7 @@ Tabela 28 : RF39 - Inserir foto do desaparecido
 |História de usuário | HU37 |
 | Elicitação |[DOC13](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDeDocumento/)  |
 | Caso de uso|UC02  |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX05 |
 |Implementação||
 
@@ -629,7 +629,7 @@ Tabela 29: RF40 - Inserir localização do desaparecido
 |História de usuário | - |
 | Elicitação |[DOC14](https://requisitos-de-software.github.io/2024.1-Sinesp_Cidadao/elicitacao/tecnicas/AnaliseDeDocumento/)  |
 | Caso de uso|  |
-| Cenário| Todos os cénarios |
+| Cenário| Todos os cenários |
 | Léxico | LX09 |
 |Implementação||
 
@@ -638,7 +638,7 @@ _Autor:[Harryson Campos Martins](https://github.com/harry-cmartin), 2024._
 </center>
 
 
-A seguir nas tabelas 31 a 41 podem ser vistos os requistos Funcionais e não implementados:
+A seguir nas tabelas 31 a 41 podem ser vistos os requisitos Funcionais e não implementados:
 
 
 <center>
@@ -946,7 +946,7 @@ _Autor:[Harryson Campos Martins](https://github.com/harry-cmartin), 2024._
 </center>
 
 
-Nas tabelas de 48 e 49 podem ser vistos os requistos não funcionais não implementados
+Nas tabelas de 48 e 49 podem ser vistos os requisitos não funcionais não implementados
 
 
 <center>
@@ -987,7 +987,7 @@ _Autor:[Harryson Campos Martins](https://github.com/harry-cmartin), 2024._
 
 </center>
 
-## Referências Bibliograficas
+## Referências Bibliográficas
 
 > - POHL, Klaus; RUPP, Chris. Requirements Engineering Fundamentals: A Study Guide for the Certified Professional for Requirements Engineering Exam.
 > - Slides da Aula 26 da Professora Milene Serrano e do Professor Maurício Serrano.

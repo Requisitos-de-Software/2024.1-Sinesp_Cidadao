@@ -186,7 +186,7 @@ _Autor:[Bittar](https://github.com/Bittarx), 2024._
 
 ### Solução
 
-- É recomendado que a equipe pesquise no sistema rotas aslternativas de uso que leve o sistema a situações inesperadas e detalhe essa análise
+- É recomendado que a equipe pesquise no sistema rotas alternativas de uso que leve o sistema a situações inesperadas e detalhe essa análise
 
 
 ### Verificação dos Casos de Uso

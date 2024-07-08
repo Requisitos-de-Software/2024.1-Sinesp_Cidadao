@@ -23,7 +23,7 @@ Esta página é destinada à apresentação da etapa 1 do projeto de Requisitos 
 
 </center>
 
-Na apresentação é possível a visualização de todos os artefatos da entrega, assim como, os itens de avaliação presentes no Plano de Ensino da Disciplina e explicitos na Tabela 1:
+Na apresentação é possível a visualização de todos os artefatos da entrega, assim como, os itens de avaliação presentes no Plano de Ensino da Disciplina e explícitos na Tabela 1:
 
 <center>
 

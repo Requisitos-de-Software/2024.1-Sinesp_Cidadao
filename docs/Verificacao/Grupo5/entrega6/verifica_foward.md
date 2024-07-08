@@ -1,4 +1,4 @@
-# Verificação do foward from do Grupo 5
+# Verificação do Forward from do Grupo 5
 
 ## Introdução
 
@@ -26,7 +26,7 @@ Assim como nas demais verificações, a metodologia escolhida foi a dos checklis
 
 _Autor: [Bittar](https://github.com/Bittarx), 2024._
 
-**Tabela 2** - Checklist do Foward
+**Tabela 2** - Checklist do Forward
 
 | ID  | Descrição | Avaliação |Observações |
 | :-: | :---------------------------: | :-------: | :---: |

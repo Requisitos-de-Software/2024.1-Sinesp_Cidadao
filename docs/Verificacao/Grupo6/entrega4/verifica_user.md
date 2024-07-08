@@ -53,7 +53,7 @@ _Autor: [Italo Bruno](https://github.com/Italobrunom), [Flávio Melo](https://gi
 
 ## Lista de Problemas e Análise 
 
-- Seguinto a lista construída não foram encontrados problemas relativos ao artefato.
+- Seguindo a lista construída não foram encontrados problemas relativos ao artefato.
 
 
 ## Gravação da verificação

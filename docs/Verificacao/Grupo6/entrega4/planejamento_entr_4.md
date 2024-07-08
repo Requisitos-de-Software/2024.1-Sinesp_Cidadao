@@ -87,7 +87,7 @@ _Autor: [Flávio Melo](https://github.com/flavioovatsug), 2024._
 
 _Autor: [Italo Bruno](https://github.com/Italobrunom), [Flávio Melo](https://github.com/flavioovatsug), 2024._
 
-## Gravação da Verficação 
+## Gravação da Verificação 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rQpPdJsloBI?si=2q6OPmXo7UBXgqji" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
