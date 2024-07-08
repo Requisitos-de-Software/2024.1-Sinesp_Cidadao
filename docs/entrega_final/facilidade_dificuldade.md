@@ -21,7 +21,7 @@ Bom, acredito que, em termos de dificuldade, o que mais me causou problemas foi 
 O que mais me causou dificuldades foi o tempo necessário para aprender, aplicar e criar a documentação necessária para o projeto. Já para as facilidades, posso citar as listas oferecidas no inicio do projeto que davam um norte do que fazer, os repositórios disponibilizados para consultas de artefatos e os feedbacks constantes dos monitores.
 
 #### Ian Lucca
-
+O que mais me causou dificldades com relação à matéria de Requisitos de Software, foi a grande quantidade de documentos necessários para cada entrega e uma janela de tempo que não foi muito ampla para realizá-los. Todavia, os feedbacks constantes durante as apresentações, seja por parte dos alunos, monitores e do professor, mostraam a direção em que o grupo deveria se orientar para entregar o que erá necessário
 
 #### Italo Bruno
 
@@ -34,6 +34,8 @@ O que tive mais dificuldades foi entender os conceitos das técnicas e como apli
 
 | Versão | Data   | Descrição | Autor(es) | Revisor(es)     |
 | ------ | ---------- | ---------------- | ------------------ | ----------- |
-| `1.0` | 06/07/2024 | Criação do Documento | [Flávio Melo](https://github.com/flavioovatsug) | [Harryson Campos Martins](https://github.com/harry-cmartin)|
+| `1.0`    | 06/07/2024 | Criação do Documento | [Flávio Melo](https://github.com/flavioovatsug) | [Harryson Campos Martins](https://github.com/harry-cmartin)|
 |`1.1`|07/07/2024| Adição de facilidades e dificuldades |[Harryson Campos Martins](https://github.com/harry-cmartin)|[Flávio Melo](https://github.com/flavioovatsug)|
-|`1.1`|07/07/2024| Adição de facilidades e dificuldades |[Italo Bruno](https://github.com/italobrunom)|[Ian](https://github.com/IanLucca12)|
+|`1.2`|07/07/2024| Adição de facilidades e dificuldades |[Italo Bruno](https://github.com/italobrunom)|[Ian](https://github.com/IanLucca12)|
+|`1.3`|07/07/2024| Adição de facilidades e dificuldades |[Ian Lucca](https://github.com/IanLucca12)|[Christian](https://github.com/crstyhs)|
+
