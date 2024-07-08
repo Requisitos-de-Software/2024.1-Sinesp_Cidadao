@@ -11,9 +11,11 @@ Para registrar todas a dificuldades e facilidades que cada membro do grupo teve,
 ## Resultados
 
 #### Christian Santos
-O que mais me causou dificuldade foi a organização dos documentos, adaptar os documentos para que qualquer pessoal que tenha acesso ao projeto possa navegar com facilidade pelos arquivos foi uma tarefa meticulosa, por outro lado tive facilidade em trabalhar com o grupo ja que todos são bem amigaveis.
+
+O que mais me causou dificuldade foi a organização dos documentos, adaptar os documentos para que qualquer pessoal que tenha acesso ao projeto possa navegar com facilidade pelos arquivos foi uma tarefa meticulosa, por outro lado tive facilidade em trabalhar com o grupo ja que todos são bem amigáveis.
 
 #### Flávio Melo
+
 Bom, acredito que, em termos de dificuldade, o que mais me causou problemas foi a questão do tempo. Devido à grande quantidade de tarefas de outras disciplinas que cursei durante o semestre, tive dificuldades para conciliar todas as atividades, principalmente no início do período. Quanto às facilidades, acredito que, por ter um bom conhecimento e facilidade em utilizar Git e GitHub, consegui me virar bem o suficiente para resolver quaisquer dos mais variados problemas que eventualmente surgiram.
 
 #### Harryson Martins
@@ -21,13 +23,15 @@ Bom, acredito que, em termos de dificuldade, o que mais me causou problemas foi 
 O que mais me causou dificuldades foi o tempo necessário para aprender, aplicar e criar a documentação necessária para o projeto. Já para as facilidades, posso citar as listas oferecidas no inicio do projeto que davam um norte do que fazer, os repositórios disponibilizados para consultas de artefatos e os feedbacks constantes dos monitores.
 
 #### Ian Lucca
-O que mais me causou dificuldades com relação à matéria de Requisitos de Software, foi a grande quantidade de documentos necessários para cada entrega e uma janela de tempo que não foi muito ampla para realizá-los. Todavia, os feedbacks constantes durante as apresentações, seja por parte dos alunos, monitores e do professor, mostraam a direção em que o grupo deveria se orientar para entregar o que erá necessário
+
+O que mais me causou dificuldades com relação à matéria de Requisitos de Software, foi a grande quantidade de documentos necessários para cada entrega e uma janela de tempo que não foi muito ampla para realizá-los. Todavia, os feedbacks constantes durante as apresentações, seja por parte dos alunos, monitores e do professor, mostram a direção em que o grupo deveria se orientar para entregar o que erá necessário
 
 #### Italo Bruno
 
 O que tive mais dificuldades foi entender os conceitos das técnicas e como aplicar elas no projeto devido ao fato de que algumas tem vários métodos de se utilizar, além de que estava difícil conciliar o tempo da disciplina com o trabalho. As facilidades para mim foram que basicamente a disciplina é documentação, então não precisava ficar horas tentando fazer algo.
 
 #### Marcos Bittar
+
 A maior dificuldade que tive nessa matéria foi programar o meu tempo de maneira eficiente, dado que não lido bem com prazos apertados. Além disso, o simples fato do trabalho ser em grupo me causa grande ansiedade, dado problemas pessoais que possuo com tal tipo de trabalho. Apesar disso, os membros de meu grupo foram extremamente compreensivos e me ajudaram em minhas dificuldades, por meio da distribuição e atribuição clara de tarefas.
 
 ## Histórico de Versões
