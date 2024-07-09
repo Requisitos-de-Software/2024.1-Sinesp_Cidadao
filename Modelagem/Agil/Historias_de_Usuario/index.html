@@ -1,0 +1,5261 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentação para o projeto de avaliação da disciplina de requisitos de software ">
+      
+      
+        <meta name="author" content="Grupo 5">
+      
+      
+      
+        <link rel="prev" href="../../Cenarios/">
+      
+      
+        <link rel="next" href="../backlog/">
+      
+      
+      <link rel="icon" href="../../../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.28">
+    
+    
+      
+        <title>Histórias de Usuário - Sinesp</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.6543a935.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#historias-de-usuarios" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="Sinesp" class="md-header__button md-logo" aria-label="Sinesp" data-md-component="logo">
+      
+  <img src="../../../../assets/Logos/Logo_sinesp.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Sinesp
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Histórias de Usuário
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Mudar para o modo escuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mudar para o modo escuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Mudar para o modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mudar para o modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Requisitos-de-Software/2024.1-Sinesp_Cidadao" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2024.1-Sinesp_Cidadao
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../atas/Ata_Reuniao1_25_03_2024/" class="md-tabs__link">
+          
+  
+  Atas
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../Apresentacoes/apresentacao_1/" class="md-tabs__link">
+          
+  
+  Apresentações
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../Planejamento/Lista_de_aplicativos/" class="md-tabs__link">
+          
+  
+  Planejamento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../elicitacao/Perfil_de_usuario/" class="md-tabs__link">
+          
+  
+  Elicitação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../Casos_De_uso/" class="md-tabs__link">
+          
+  
+  Modelagem
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../Verificacao/Grupo6/entrega1/planejamento_entr_1/" class="md-tabs__link">
+          
+  
+  Verificação - Grupo 6
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../P%C3%B3s-Rastreabilidade/backward/" class="md-tabs__link">
+          
+  
+  Rastreamento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../Verificacao/Grupo5/entrega1/planejamento_entre1/" class="md-tabs__link">
+          
+  
+  Verificação e Validação
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../entrega_final/app_selecionado/" class="md-tabs__link">
+          
+  
+  Entrega Final
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Sinesp" class="md-nav__button md-logo" aria-label="Sinesp" data-md-component="logo">
+      
+  <img src="../../../../assets/Logos/Logo_sinesp.png" alt="logo">
+
+    </a>
+    Sinesp
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Requisitos-de-Software/2024.1-Sinesp_Cidadao" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2024.1-Sinesp_Cidadao
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Início
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Atas
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Atas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Ata_Reuniao1_25_03_2024/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ata 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Ata_Reuniao2_31_03_2024/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ata 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Ata_Reuniao3__07_04_2024/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ata 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Ata_Reuniao4_14_04_2024/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ata 4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Ata_Reuniao5_19_04_2024/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ata 5
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Ata_Reuniao6_13_05_2024/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ata 6
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Ata_Reuniao7_18_05_2024/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ata 7
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Ata_Reuniao8_20_05_2024/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ata 8
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Ata_Reuniao9_27_05_2024/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ata 9
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_Reuniao10_10_06_2024/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ata 10
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Ata_Reuniao11_23_06_2024/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ata 11
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Ata_Reuniao12_01_07_2024/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ata 12
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Apresentações
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Apresentações
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Apresentacoes/apresentacao_1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Apresentacoes/apresentacao_2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Apresentacoes/apresentacao_3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Apresentacoes/apresentacao_4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação 4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Apresentacoes/apresenta%C3%A7%C3%A3o_5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação 5
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Apresentacoes/apresenta%C3%A7%C3%A3o_6/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação 6
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Apresentacoes/apresentacao_7/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação 7
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Planejamento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Planejamento/Lista_de_aplicativos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lista de Aplicativos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Planejamento/App_selecionado/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aplicativo Escolhido
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Planejamento/cronograma/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cronograma Planejado
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Planejamento/Cronograma_Executados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cronograma executado
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Planejamento/heatmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Heatmap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Planejamento/Rich_pictures/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rich Pictures
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ferramentas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Elicitação
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/Perfil_de_usuario/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Perfil de usuário
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/personas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Personas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Técnicas
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Técnicas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/questionario/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Questionario
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/AnaliseDaInterface/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Analise de Interface
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/AnaliseDeDocumento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Analise de Documento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/AnaliseDeProtocolo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Analise de Protocolo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/Entrevista/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Entrevista
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/Introspeccao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introspecção
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/storytelling/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Storytelling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/Requisitos_elicitados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Requisitos Elicitados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_5" id="__nav_5_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Priorização
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_5">
+            <span class="md-nav__icon md-icon"></span>
+            Priorização
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/Moscow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MOSCOW
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/100%24/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    100$
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/FTF/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FTF
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/three_scales/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Three Scales
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Modelagem
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Modelagem
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Casos_De_uso/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Casos de uso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lexico/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Léxicos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../especificacao_suplementar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Especificação Suplementar
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Cenarios/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cenários
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6_5" id="__nav_6_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Ágil
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6_5">
+            <span class="md-nav__icon md-icon"></span>
+            Ágil
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Histórias de Usuário
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Histórias de Usuário
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backlog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backlog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../NFR/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NFR Framework
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Verificação - Grupo 6
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Verificação - Grupo 6
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_1" id="__nav_7_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Entrega 1
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_1">
+            <span class="md-nav__icon md-icon"></span>
+            Entrega 1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo6/entrega1/planejamento_entr_1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo6/entrega1/verifica_RichPicture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rich Picture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Entrega 2
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            Entrega 2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo6/entrega2/planejamento_entr_2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo6/entrega2/verifica_Brainstorming/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Brainstoriming
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo6/entrega2/verifica_entrevista/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Entrevistas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo6/entrega2/verifica_InOrOut/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    InOrOut
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo6/entrega2/verifica_MosCow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MosCow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo6/entrega2/verifica_Observacoes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Observações
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/entrega2/Grupo6/verifica_questionario.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Questionário
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo6/entrega2/verifica_RequisitosElicitados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Requisitos Elicitados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/entrega2/Grupo6/verifica_ThreeScales.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ThreeScales
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_3" id="__nav_7_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Entrega 3
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_3">
+            <span class="md-nav__icon md-icon"></span>
+            Entrega 3
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo6/entrega3/planejamento_entr_3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo6/entrega3/verifica_casosdeuso/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Casos de uso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo6/entrega3/verifica_lexicos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Léxicos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo6/entrega3/verifica_Especificacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Especificação Suplementar
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo6/entrega3/verifica_cenarios/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cenários
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Entrega 4
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_4">
+            <span class="md-nav__icon md-icon"></span>
+            Entrega 4
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo6/entrega4/planejamento_entr_4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo6/entrega4/verifica_user/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Histórias de Usuário
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo6/entrega4/verifica_backlog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backlog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo6/entrega4/verifica_nfr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NFR Framework
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Rastreamento
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Rastreamento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../P%C3%B3s-Rastreabilidade/backward/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backward From
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../P%C3%B3s-Rastreabilidade/forward/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Forward-From
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../P%C3%B3s-Rastreabilidade/matriz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Matriz de rastreabilidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Verificação e Validação
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Verificação e Validação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_1" id="__nav_9_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Verificação
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_1">
+            <span class="md-nav__icon md-icon"></span>
+            Verificação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_1_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_1_1" id="__nav_9_1_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Entrega 1
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            Entrega 1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega1/planejamento_entre1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega1/rich_picture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rich Picture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_1_2" id="__nav_9_1_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Entrega 2
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            Entrega 2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega2/planejamento_entr_2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega2/verifica_100%24/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    100$
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega2/verifica_documento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Analise de Documento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega2/verifica_entrevista/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Entrevista
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega2/verifica_FTF/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FTF
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega2/verifica_interface/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Analise de Interface
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega2/verifica_introspecção.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introspecção
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega2/verifica_MosCow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MosCow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega2/verifica_protocolo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Analise de Protocolo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega2/verifica_questionario/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Questionário
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega2/verifica_RequisitosElicitados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Requisitos Elicitados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega2/verifica_storytelling/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Storytelling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega2/verifica_ThreeScales/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Three Scales
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_1_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_1_3" id="__nav_9_1_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Entrega 3
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_1_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            Entrega 3
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega3/planejamento_entr_3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega3/verifica_casos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Casos de uso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega3/verifica_cenario/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cenários
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega3/verifica_especificacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Especificação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega3/verifica_lexico/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Léxicos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_1_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_1_4" id="__nav_9_1_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Entrega 4
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_1_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_1_4">
+            <span class="md-nav__icon md-icon"></span>
+            Entrega 4
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega4/planejamento_entr_4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega4/verifica_user/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Histórias de Usuário
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega4/verifica_backlog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backlog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega4/verifica_nfr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NFR Framework
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_1_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_1_5" id="__nav_9_1_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Entrega 6
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_1_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_1_5">
+            <span class="md-nav__icon md-icon"></span>
+            Entrega 6
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega6/planejamento_entr_6/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega6/verifica_backward/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backward From
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega6/verifica_foward/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Foward From
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/entrega6/verifica_matriz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Matriz de Rastreabilidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_2" id="__nav_9_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Validação
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_2">
+            <span class="md-nav__icon md-icon"></span>
+            Validação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/validacao/Prototipo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protótipo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verificacao/Grupo5/validacao/validacao_informal/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Comprovação Informal
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Entrega Final
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Entrega Final
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/app_selecionado/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aplicativo Selecionado
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/execucao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Execução do Projeto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/ferramentas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ferramentas Utilizadas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/tecnicas_utilizadas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Técnicas Utilizadas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/Planejamento_dos_rec_e_entregas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento do Recursos e das Entregas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/verificacao_validacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Métodos de Verificação e Validação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/artefatos_criados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Artefatos Criados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/apresentacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentações
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/resultados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resultados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/facilidade_dificuldade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Facilidades e Dificuldades
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="historias-de-usuarios">Histórias de Usuários</h1>
+<h2 id="introducao">Introdução</h2>
+<p>Este documento refere-se as Histórias de Usuários, documentação exigida sobre Modelagem no projeto de requisitos de software pelo grupo 5 para explicar de forma clara e concisa as funcionalidades e os requisitos necessários do envolvidos no aplicativo Sinesp Cidadão </p>
+<h2 id="metodologia">Metodologia</h2>
+<p>Este documento foi produzido com base nos requisitos elicitados com persona presentes no <a href="https://github.com/Requisitos-de-Software/2024.1-Sinesp_Cidadao/blob/main/docs/elicitacao/priorizacao/three_scales.md">Three Level Scale</a> para o levantamento das histórias de usuário que sequem a seguinte estrutura da tabela 1 e figura 1 [1].</p>
+<p><font size="2"><p style="text-align: center">Figura 1: Estrutura da descrição </p></font></p>
+<p><center></p>
+<p><img alt="Figura 1" src="../../../assets/UserStories/descricaoModelo.jpg" />
+</center></p>
+<p><font size="2"><p style="text-align: center">Fonte: SERRANO M.; SERRANO M. Requisitos - Aula 15.</p></font></p>
+<p style="text-align: center">Tabela 1 - Estrutura das Histórias de Usuários</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>identificador da história</th>
+<th>caraterísticas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Nome da História de Usuário auto-explicativo</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Descreve "quem", "o que" e o "por que" da funcionalidade</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>Condições que devem ser atendidas para que a história seja considerada completa e aceita</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/crstyhs">Christian</a></p>
+
+<h1 id="validacao">Validação</h1>
+<p>A validação das histórias de Usuários foi feita com o uso de personas com a gravação disponível no seguinte link: <a href="https://www.youtube.com/watch?v=kIUk2A81P6Q">gravação</a></p>
+<h2 id="historias-de-usuarios-identificados">Histórias de Usuários identificados</h2>
+<p>Abaixo nas tabelas de 1 a 41 podem ser visto as Histórias de Usuários .</p>
+<p style="text-align: center">Tabela 2 - História de Usuário Autenticação de Usuário</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU01</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Autenticação de Usuário</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero poder fazer login utilizando o Governo Federal (Gov) como método de autenticação, para acessar de forma segura as funcionalidades exclusivas do aplicativo.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O usuário deve ter a opção de selecionar o método de autenticação pelo Gov ao iniciar o processo de login. <br> - Após selecionar o Gov como método de autenticação, o usuário deve ser redirecionado para a página de login do Gov. <br> - Após autenticar com sucesso no Gov, o usuário deve ser redirecionado de volta para o aplicativo Sinesp Cidadão.<br> - O usuário deve ser autenticado com sucesso no aplicativo Sinesp Cidadão após retornar do Gov, permitindo o acesso às funcionalidades do aplicativo.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/crstyhs">Christian Hirsch Santos</a></p>
+
+<p style="text-align: center">Tabela 3 - História de Usuário Busca por Veículo</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU02</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Busca por Veículo</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero poder buscar informações sobre um veículo utilizando a placa, para obter detalhes sobre o mesmo.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O usuário deve ter a opção de inserir a placa do veículo na barra de busca. <br> - Após inserir a placa e confirmar a busca, o sistema deve exibir as informações disponíveis sobre o veículo. <br> - As informações exibidas devem incluir a situação atual do veículo, indicando se está registrado como roubado ou furtado.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/crstyhs">Christian Hirsch Santos</a></p>
+
+<p style="text-align: center">Tabela 4 - História de Usuário Adicionar carro como roubado</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU03</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Adicionar carro como roubado</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter a opção de informar dados sobre um veículo roubado , para contribuir com o banco de dados e auxiliar na identificação de veículos roubados ou furtados.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O usuário deve ter a opção de preencher um formulário com os dados do veículo, como modelo, cor e marca. <br> - Após preencher os dados do veículo, o usuário deve ter a opção de enviar as informações para o sistema. <br> - O sistema deve receber e armazenar as informações do veículo de forma segura e precisa no banco de dados. <br> - Após enviar as informações, o usuário deve receber uma confirmação de que os dados foram registrados com sucesso.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/crstyhs">Christian Hirsch Santos</a></p>
+
+<p style="text-align: center">Tabela 5 - História de Usuário Listar Pessoas Desaparecidas</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU04</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Listar Pessoas Desaparecidas</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter a opção de visualizar uma lista de pessoas desaparecidas, para auxiliar na busca e localização de indivíduos desaparecidos.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O usuário deve ter a opção de acessar a seção de pessoas desaparecidas no menu principal do aplicativo. - A lista de pessoas desaparecidas deve ser exibida de forma a mostrar a foto e o nome da pessoa desaparecida. <br> - Cada entrada na lista deve possibilitar seu selecionamento para obter mais informações.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/crstyhs">Christian Hirsch Santos</a></p>
+
+<p style="text-align: center">Tabela 6 - História de Usuário Fornecer Informações Gerais sobre Desaparecidos</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU05</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Fornecer Informações Gerais sobre Desaparecidos</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter acesso a informações gerais sobre desaparecidos, como idade, tamanho, foto para a identificação do desaparecido</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O usuário deve ter a opção de acessar a seção de informações gerais sobre desaparecidos ao selecionar a pessoa especifica na aba de desaparecidos. <br> - As informações gerais devem ser atualizadas diariamente.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/crstyhs">Christian Hirsch Santos</a></p>
+
+<p style="text-align: center">Tabela 7 - História de Usuário Vincular ao Desaparecido </p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU06</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Vincular ao Desaparecido</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter a opção de vincular ao perfil uma pessoa desaparecida, para ajudar na centralização e organização das informações relacionadas ao cada caso e receber notificações de atualizações sobre ele.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O usuário deve ter a opção de acessar o perfil de uma pessoa desaparecida. <br> - Após acessar o perfil, o usuário deve ter a opção de vincular a pessoa desaparecida ao seu perfil. <br> - O sistema deve registrar e notificar as informações vinculadas ao perfil da pessoa desaparecida . <br> - O usuário deve poder visualizar todas as ocorrências e informações vinculadas ao seu perfil na aba de vínculos.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/crstyhs">Christian Hirsch Santos</a></p>
+
+<p style="text-align: center">Tabela 8 - História de Usuário Vincular ao Carro</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU07</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Vincular ao Carro</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter a opção de vincular ao perfil um veículo , para ajudar na identificação e localização do veículo e receber notificações de atualizações sobre ele.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O usuário deve ter a opção de buscar o veículo . <br> - Após buscar pelo veículo, o usuário deve ter a opção de vincular o veículo ao seu perfil. <br> - O sistema deve registrar e notificar sobre atualizações das informações do veículo vinculo   . <br> - O usuário deve poder visualizar todas as ocorrências e informações vinculadas ao seu perfil na aba de vínculos.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/crstyhs">Christian Hirsch Santos</a></p>
+
+<p style="text-align: center">Tabela 9 - História de Usuário Buscar por Mandados</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU08</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Buscar por Mandados</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter a opção de buscar informações sobre mandados de prisão, para auxiliar na identificação e captura de indivíduos julgados pela justiça.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O usuário deve ter a opção de acessar a seção de busca por mandados no menu principal do aplicativo. <br> - O usuário deve poder pesquisar por mandados utilizando critérios como nome do procurado, número do mandado ou tipo de crime. <br> - O usuário deve poder visualizar detalhes adicionais sobre cada mandado ao selecionar um resultado da busca.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/crstyhs">Christian Hirsch Santos</a></p>
+
+<p style="text-align: center">Tabela 10 - História de Usuário Fornecer Informações sobre Mandados</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU09</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Fornecer Informações sobre Mandados</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter acesso a informações detalhadas sobre mandados de prisão, para entender os motivos pelos quais os indivíduos estão sendo julgado pela justiça.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O usuário deve ter a opção de acessar a seção de informações sobre mandados no menu principal do aplicativo. <br> - O usuário deve poder acessar informações adicionais sobre cada mandado ao selecionar um item na lista. <br> - As informações sobre mandados devem ser apresentadas explicando os detalhes dos crimes pelos quais os indivíduos estão sendo procurados(Sentença, Expedição,Peça).</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/crstyhs">Christian Hirsch Santos</a></p>
+
+<p style="text-align: center">Tabela 11 - História de Usuário Buscar por Procurados</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU10</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Buscar por Procurados</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter a opção de buscar informações sobre indivíduos procurados pela justiça, para contribuir com a identificação e captura dessas pessoas.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O usuário deve ter a opção de acessar a seção de busca por procurados no menu principal do aplicativo. <br> - O usuário deve poder visualizar detalhes adicionais sobre cada procurado ao selecionar uma foto em especifico</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/crstyhs">Christian Hirsch Santos</a></p>
+
+<p style="text-align: center">Tabela 12 - História de Usuário Fornecer Informações sobre Procurados</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU11</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Fornecer Informações sobre Procurados</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter acesso a informações detalhadas sobre indivíduos procurados pela justiça, para entender os motivos pelos quais eles estão sendo procurados e contribuir com o processo de captura.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O usuário deve poder acessar informações adicionais sobre cada mandado ao selecionar um item na lista. <br> - As informações sobre mandados devem ser apresentadas explicando os detalhes dos crimes pelos quais os indivíduos estão sendo procurados(Sentença, Expedição,Peça).</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/crstyhs">Christian Hirsch Santos</a></p>
+
+<p style="text-align: center">Tabela 13 - História de Usuário Sair do Aplicativo</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU12</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Sair do Aplicativo</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter a opção de sair do aplicativo , para encerrar a sessão e proteger meus dados pessoais.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- Ao selecionar a opção de sair, o sistema deve encerrar a sessão do usuário e retornar à tela de login. <br> - O usuário deve ser informado de que a sessão foi encerrada com sucesso e de que ele está desconectado do aplicativo. <br> - Após sair do aplicativo, o usuário não deve ter acesso às funcionalidades ou informações pessoais sem efetuar login novamente.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/crstyhs">Christian Hirsch Santos</a></p>
+
+<p style="text-align: center">Tabela 14 - História de Usuário Anunciar Perturbação da Vizinhança</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU13</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Anunciar Perturbação da Vizinhança</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter a opção de relatar ocorrências de perturbação da vizinhança, como barulhos excessivos ou atividades suspeitas, para alertar as autoridades e promover a segurança local.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O usuário deve ter a opção de relatar uma ocorrência de perturbação da vizinhança através do aplicativo. <br> - O usuário deve poder descrever a ocorrência de forma detalhada, incluindo informações como local, horário e tipo de perturbação. <br> - Após enviar o relato, o sistema deve registrar a ocorrência e encaminhá-la para as autoridades . <br> - O usuário deve receber uma confirmação de que o relato foi enviado com sucesso e está sendo processado pelas autoridades.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/crstyhs">Christian</a></p>
+
+<p style="text-align: center">Tabela 15 - História de Usuário Rápida Disponibilização de Informações</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU14</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Rápida Disponibilização de Informações</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter acesso rápido a informações , para me manter informado em situações de urgência sobre desaparecidos , mandados e procurados.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O tempo de resposta nao deve exceder 300 ms</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/harry-cmartin">Harryson C Martins</a></p>
+
+<p style="text-align: center">Tabela 16 - História de Usuário Sigilo Relativo de Informações</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU15</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Sigilo Relativo de Informações</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero que minhas informações pessoais sejam protegidas e mantidas em sigilo, para garantir minha privacidade e segurança ao utilizar o aplicativo.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- As informações pessoais dos usuários não devem ser compartilhadas com terceiros sem consentimento prévio</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/harry-cmartin">Harryson C Martins</a></p>
+
+<p style="text-align: center">Tabela 17 - História de Usuário Disponibilizar Diversas Opções de Denúncia</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU16</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Disponibilizar Diversas Opções de Denúncia</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter acesso a diversas opções de denúncia, como crimes, violência doméstica e abuso infantil, para relatar incidentes e colaborar com as autoridades na manutenção da ordem pública.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O sistema deve oferecer uma variedade de categorias de denúncia, abrangendo diferentes tipos de crimes , violações e problemas(Vandalismo, Veículo Abandonado, Comércio Irregular,Iluminação publica).</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/harry-cmartin">Harryson C Martins</a></p>
+
+<p style="text-align: center">Tabela 18 - História de Usuário Tutorial de Uso do Aplicativo</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU17</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Tutorial de Uso do Aplicativo</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter acesso a um tutorial completo sobre o uso do aplicativo, para aprender como utilizar todas as funcionalidades disponíveis e aproveitar ao máximo a experiência do usuário.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O tutorial deve fornecer uma visão geral das principais funcionalidades do aplicativo, incluindo como realizar buscas, relatar ocorrências e acessar informações importantes. <br> - O tutorial deve ser fácil de entender e seguir, utilizando instruções claras e ilustrações visuais sempre que possível. <br> - O usuário deve ter a opção de revisitar o tutorial a qualquer momento, caso deseje aprender mais sobre uma funcionalidade específica do aplicativo.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/crstyhs">Christian</a></p>
+
+<p style="text-align: center">Tabela 19 - História de Usuário Disponibilização de Fotos do Desaparecido</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU18</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Disponibilização de Fotos do Desaparecido</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter acesso a fotos das pessoas desaparecidas, para ajudar na identificação e localização dos indivíduos desaparecidos.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O sistema deve exibir fotos das pessoas desaparecidas em uma galeria de imagens, acessível através do perfil de cada pessoa desaparecida. <br> - As fotos devem ser de alta qualidade e claramente identificáveis, para facilitar o reconhecimento dos indivíduos. <br> - O sistema deve permitir que o usuário navegue pela galeria de fotos e amplie as imagens para uma visualização mais detalhada.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/crstyhs">Christian</a></p>
+
+<p style="text-align: center">Tabela 20 - História de Usuário Disponibilização de Informações Detalhadas do Desaparecido</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU19</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Disponibilização de Informações Detalhadas do Desaparecido</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter acesso a informações detalhadas sobre cada pessoa desaparecida, como tatuagem, comportamento e características destacáveis, para ajudar na busca e localização dos indivíduos desaparecidos.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O sistema deve apresentar informações detalhadas sobre cada pessoa desaparecida em seus respectivos perfis, acessíveis através da lista de pessoas desaparecidas. <br> As informações detalhadas devem incluir características físicas, como altura, peso, cor dos olhos e cabelos, além de características distintivas, como tatuagens ou cicatrizes. <br> - O sistema deve fornecer informações sobre o último local visto da pessoa desaparecida, incluindo data, hora e circunstâncias do desaparecimento.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/crstyhs">Christian</a></p>
+
+<p style="text-align: center">Tabela 21 - História de Usuário Interface Simples</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU20</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Interface Simples</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero uma interface simples e intuitiva, para que eu possa navegar pelo aplicativo sem dificuldades e encontrar o que preciso com facilidade.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- A navegação dentro do aplicativo deve ser intuitiva, com menus e botões dispostos de forma lógica e consistente. <br> - O sistema deve fornecer feedback visual para indicar ações e estados, como sucesso de uma operação ou erro na entrada de dados. <br> - O sistema deve minimizar a quantidade de passos necessários para realizar uma tarefa, reduzindo assim a carga cognitiva do usuário e aumentando a eficiência da interação.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/crstyhs">Christian</a></p>
+
+<p style="text-align: center">Tabela 22 - História de Usuário Ligar para a Polícia</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU21</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Ligar para a Polícia</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter a opção de ligar para a polícia diretamente do aplicativo, em caso de emergência ou necessidade de assistência imediata.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O sistema deve oferecer um botão de emergência na interface do usuário, visível e acessível em todas as telas do aplicativo. <br> - Ao selecionar o botão de emergência, o sistema deve iniciar uma chamada para o número de emergência da polícia local. <br> - O usuário deve receber uma confirmação visual de que a chamada foi iniciada com sucesso e está em andamento.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/crstyhs">Christian</a></p>
+
+<p style="text-align: center">Tabela 23 - História de Usuário Visualizar Vínculos</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU22</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Visualizar Vínculos</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter a opção de visualizar vínculos entre ocorrências, pessoas desaparecidas, veículos e outras informações relevantes, para acessar mais facilmente diferentes casos.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O sistema deve fornecer opções de filtragem e busca para que o usuário possa encontrar e explorar vínculos específicos de interesse.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/crstyhs">Christian</a></p>
+
+<p style="text-align: center">Tabela 24 - História de Usuário Requisitar Ajuda</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU23</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Requisitar Ajuda</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter a opção de solicitar ajuda , para receber assistência rápida e eficaz .</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O sistema deve possibilitar uma aba de ajuda onde está presente a resposta para as perguntas mais frequentes sobre o aplicativo</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/crstyhs">Christian</a></p>
+
+<p style="text-align: center">Tabela 25 - História de Usuário Retornar ao Início</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU24</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Retornar ao Início</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter a opção de retornar rapidamente à tela inicial do aplicativo, para reiniciar a navegação ou acessar outras funcionalidades de forma conveniente.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O sistema deve fornecer um botão ou ícone claramente identificado para retornar à tela inicial, visível e acessível em todas as telas do aplicativo. <br> - Ao selecionar o botão ou ícone de retorno à tela inicial, o sistema deve redirecionar o usuário imediatamente para a página inicial do aplicativo. <br> - O usuário deve receber feedback visual de que o retorno à tela inicial foi realizado com sucesso, como uma animação de transição ou mensagem de confirmação. <br> - O sistema deve manter o estado atual da sessão do usuário ao retornar à tela inicial, preservando quaisquer informações ou configurações previamente selecionadas.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/crstyhs">Christian</a></p>
+
+<p style="text-align: center">Tabela 26 - História de Usuário Salvar Histórico de Busca</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU25</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Salvar Histórico de Busca</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero que o histórico de minhas buscas seja salvo no aplicativo, para que eu possa acessar facilmente buscas anteriores e retomar o trabalho onde parei.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O sistema deve registrar automaticamente todas as buscas realizadas pelo usuário durante a sessão no aplicativo. <br> - O usuário deve ter a opção de visualizar o histórico de suas buscas recentes, organizado por data e hora. <br> - O sistema deve permitir que o usuário clique em uma busca anterior no histórico para reexecutá-la imediatamente, sem a necessidade de inserir os termos de busca novamente. <br> - O sistema deve oferecer opções para limpar ou gerenciar o histórico de buscas, permitindo que o usuário remova buscas específicas ou limpe o histórico completo.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/flavioovatsug">Flávio Melo</a></p>
+
+<p style="text-align: center">Tabela 27 - História de Usuário   Disponibilizar Filtro de Pesquisa</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU26</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Disponibilizar Filtro de Pesquisa</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter a opção de filtrar os resultados da minha pesquisa, para encontrar informações específicas ou refinar os resultados de acordo com meus critérios de interesse.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O sistema deve oferecer opções de filtro na interface de busca, permitindo que o usuário especifique critérios adicionais para refinar os resultados. <br> - Os filtros disponíveis devem ser relevantes para o contexto da pesquisa e adaptados às necessidades dos usuários, como tipo de ocorrência, data, localização ou gravidade. <br> - O sistema deve aplicar os filtros selecionados aos resultados da pesquisa em tempo real, exibindo apenas as informações que correspondem aos critérios especificados.<br> O usuário deve poder ajustar ou remover os filtros a qualquer momento durante a pesquisa, para explorar diferentes opções e encontrar os resultados desejados.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/flavioovatsug">Flávio Melo</a></p>
+
+<p style="text-align: center">Tabela 28 - História de Usuário Possibilitar Compartilhamento das Informações de Placa</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU27</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Possibilitar Compartilhamento das Informações de Placa</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter a opção de compartilhar informações sobre um veículo utilizando a placa, para alertar outras pessoas sobre veículos roubados ou suspeitos.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O sistema deve fornecer opções de compartilhamento ao exibir informações sobre um veículo encontrado através da busca pela placa. <br> - O usuário deve poder compartilhar as informações do veículo através de aplicativos de mensagens, redes sociais, e-mail ou outros meios de comunicação. <br> - O sistema deve garantir que as informações compartilhadas sejam precisas e atualizadas, refletindo os dados mais recentes disponíveis sobre o veículo. <br> - O usuário deve receber feedback visual de que as informações foram compartilhadas com sucesso e estar ciente das implicações legais e éticas do compartilhamento de informações pessoais.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/flavioovatsug">Flávio Melo</a></p>
+
+<p style="text-align: center">Tabela 29 - História de Usuário Instalação do Aplicativo em Diferentes Sistemas</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU28</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Instalação do Aplicativo em Diferentes Sistemas</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário potencial do aplicativo Sinesp Cidadão, eu quero ter a opção de instalar o aplicativo em diferentes sistemas operacionais, como iOS, Android , para que eu possa acessar suas funcionalidades independentemente do dispositivo que estou usando.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>O sistema deve estar disponível para download e instalação em diferentes lojas de aplicativos, como App Store e Google Play Store .</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/crstyhs">Christian</a></p>
+
+<p style="text-align: center">Tabela 30 - História de Usuário Notificar Sobre Atualizações de Vínculo</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU29</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Notificar Sobre Atualizações de Vínculo</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ser notificado sobre atualizações em vínculos de casos que acompanho, para ficar informado sobre novos desenvolvimentos e colaborar de maneira mais eficaz.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O sistema deve enviar notificações automáticas ao usuário sempre que houver uma atualização relevante em um vínculo que ele acompanha. <br> - O usuário deve poder configurar quais tipos de atualizações deseja receber, como novas informações sobre veículos, pessoas desaparecidas ou mandados. <br> - As notificações devem incluir informações resumidas sobre a atualização, com um link para visualizar os detalhes completos no aplicativo.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/italobrunom">Italo Bruno</a></p>
+
+<p style="text-align: center">Tabela 31 - História de Usuário Adicionar Novas Informações Sobre Perturbação da Vizinhança</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU30</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Adicionar Novas Informações Sobre Perturbação da Vizinhança</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero poder adicionar novas informações sobre perturbações na vizinhança, para ajudar a comunidade e as autoridades a monitorarem e resolverem esses problemas.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O sistema deve fornecer um formulário intuitivo para que o usuário adicione informações sobre perturbações da vizinhança, como barulhos excessivos ou atividades suspeitas. <br> - O usuário deve poder anexar fotos, vídeos ou áudios como evidência adicional ao relato. <br> - As informações enviadas pelo usuário devem ser revisadas e validadas antes de serem publicadas no aplicativo. <br> - O usuário deve receber uma confirmação de que sua contribuição foi recebida e será analisada pelas autoridades competentes.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: </p>
+
+<p style="text-align: center">Tabela 32 - História de Usuário Acesso a Mapa da Região</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU31</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Acesso a Mapa da Região</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter acesso a um mapa interativo da região, para visualizar ocorrências, pontos de interesse e outras informações relevantes.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O sistema deve integrar um mapa interativo acessível a partir do menu principal do aplicativo. <br> - O mapa deve exibir diferentes camadas de informação, como ocorrências policiais, pontos de interesse e zonas de alerta. <br> - O usuário deve poder aplicar filtros no mapa para visualizar informações específicas de acordo com seus interesses. <br> - O mapa deve ser atualizado regularmente para refletir as informações mais recentes e garantir a precisão dos dados apresentados.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: </p>
+
+<p style="text-align: center">Tabela 33 - História de Usuário Fornecer Feedback de Periculosidade de Áreas no Mapa</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU32</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Fornecer Feedback de Periculosidade de Áreas no Mapa</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero receber feedback sobre a periculosidade das áreas no mapa, para planejar minhas atividades com segurança e evitar zonas de risco.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O sistema deve utilizar dados de ocorrências e estatísticas de criminalidade para gerar feedback sobre a periculosidade das áreas. <br> - O mapa deve destacar áreas de risco com diferentes níveis de alerta, utilizando cores ou ícones específicos. <br> - O usuário deve poder visualizar informações detalhadas sobre o motivo da periculosidade de uma área ao clicar em um ponto específico no mapa. <br> - O sistema deve garantir que as informações sobre periculosidade sejam precisas e atualizadas regularmente.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/italobrunom">Italo Bruno</a></p>
+
+<p style="text-align: center">Tabela 34 - História de Usuário Aplicativo Deve Ser Constantemente Divulgado</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU33</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Aplicativo Deve Ser Constantemente Divulgado</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como desenvolvedor do aplicativo Sinesp Cidadão, eu quero garantir que o aplicativo seja constantemente divulgado, para aumentar sua visibilidade e alcançar mais usuários que possam se beneficiar de suas funcionalidades.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O sistema deve encorajar os usuários existentes a compartilharem o aplicativo com amigos e familiares</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/Bittarx">Bittar</a></p>
+
+<p style="text-align: center">Tabela 35 - História de Usuário Visualizar Perfil</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU34</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Visualizar Perfil</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero poder visualizar meu perfil, para acessar minhas informações pessoais, histórico de atividades e configurações de conta.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O sistema deve fornecer uma seção de perfil acessível a partir do menu principal do aplicativo. <br> - O perfil do usuário deve incluir informações básicas, como nome, e-mail, foto de perfil e histórico de atividades no aplicativo.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/Bittarx">Bittar</a></p>
+
+<p style="text-align: center">Tabela 36 - História de Usuário Visualizar Informações Institucionais</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU35</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Visualizar Informações Institucionais</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter acesso a informações institucionais sobre o aplicativo, suas funções, políticas de privacidade e termos de uso, para entender melhor como ele opera e quais são meus direitos e responsabilidades.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O sistema deve fornecer uma seção dedicada a informações institucionais, acessível a partir do menu principal do aplicativo. <br> - A seção deve incluir detalhes sobre a missão e visão do aplicativo, políticas de privacidade, termos de uso e informações de contato.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/Bittarx">Bittar</a></p>
+
+<p style="text-align: center">Tabela 37 - História de Usuário Tirar Foto</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU36</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Tirar Foto</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter a opção de tirar fotos diretamente pelo aplicativo, para anexar evidências visuais ao relatar ocorrências ou buscar pessoas desaparecidas.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O sistema deve integrar a câmera do dispositivo para permitir que o usuário tire fotos diretamente pelo aplicativo.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/IanLucca12">Ian Lucca</a></p>
+
+<p style="text-align: center">Tabela 38 - História de Usuário Comparar Foto com Desaparecido, Procurado ou Mandado</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU37</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Comparar Foto com Desaparecido, Procurado ou Mandado</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero poder comparar fotos tiradas ou enviadas com imagens de pessoas desaparecidas, procuradas ou com mandado de prisão, para ajudar na identificação e localização dessas pessoas.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O sistema deve permitir que o usuário faça upload de uma foto ou tire uma nova foto para comparação. <br> - O sistema deve utilizar tecnologia de reconhecimento facial para comparar a foto fornecida com imagens no banco de dados de pessoas desaparecidas, procuradas ou com mandado. <br> - O usuário deve receber um relatório de correspondência indicando o grau de semelhança e informações adicionais sobre a pessoa, se houver uma correspondência.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/IanLucca12">Ian Lucca</a></p>
+
+<p style="text-align: center">Tabela 39 - História de Usuário Usar Funcionalidades Sem o Cadastro do Gov</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU38</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Usar Funcionalidades Sem o Cadastro do Gov</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero ter acesso a certas funcionalidades do aplicativo sem precisar me cadastrar no Gov, para facilitar o uso inicial e incentivar a adoção do aplicativo.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O usuário deve ser informado sobre as limitações de uso sem cadastro e os benefícios de se registrar no Gov para acesso completo às funcionalidades. <br> - As funcionalidades acessíveis sem cadastro devem incluir busca de informações, visualização do mapa , entre outras.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/IanLucca12">Ian Lucca</a></p>
+
+<p style="text-align: center">Tabela 40 - História de Usuário Editar Perfil Gov</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU39</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Editar Perfil Gov</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário do aplicativo Sinesp Cidadão, eu quero poder editar meu perfil Gov diretamente pelo aplicativo, para manter minhas informações atualizadas e corretas.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O sistema deve permitir que o usuário acesse e edite suas informações de perfil Gov diretamente pelo aplicativo.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/IanLucca12">Ian Lucca</a></p>
+
+<p style="text-align: center">Tabela 41 - História de Usuário Banco de Dados Ser Constantemente Atualizado Gov</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU40</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Banco de Dados Ser Constantemente Atualizado</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um desenvolvedor ou administrador do aplicativo Sinesp Cidadão, eu quero garantir que o banco de dados do aplicativo seja constantemente atualizado, para fornecer informações precisas e relevantes aos usuários.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O sistema deve implementar processos automáticos de atualização do banco de dados, integrando dados de fontes confiáveis e oficiais. <br> - O sistema deve realizar verificações regulares para garantir a integridade e a precisão dos dados armazenados.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/Bittarx">Bittar</a></p>
+
+<p style="text-align: center">Tabela 42 - História de Usuário Ler Texto para Deficientes Visuais</p>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>HU41</th>
+<th>características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título</td>
+<td>Ler Texto para Deficientes Visuais</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Como um usuário deficiente visual do aplicativo Sinesp Cidadão, eu quero ter a opção de ouvir a leitura dos textos exibidos no aplicativo, para acessar todas as informações e funcionalidades de forma inclusiva e acessível.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O usuário deve poder ativar ou desativar a leitura de texto de acordo com suas preferências, com controles intuitivos e de fácil acesso.</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p style="text-align: center">Autor: <a href="https://github.com/IanLucca12">Ian Lucca</a></p>
+
+<h2 id="referencias">Referências</h2>
+<p>[1] SALES, André Barros. Plano de ensino da disciplina. Disponível em: <a href="https://aprender3.unb.br/pluginfile.php/2844903/mod_resource/content/40/Plano_de_Ensino%20RE%20012024%20Turma%201.pdf">https://aprender3.unb.br/pluginfile.php/2844903/mod_resource/content/40/Plano_de_Ensino%20RE%20012024%20Turma%201.pdf</a>. Acesso em 24 de Maio de 2024.</br>
+[2] SERRANO, Milene; SERRANO, Maurício. Slides de Requisitos. Disponível em: <a href="https://aprender3.unb.br/pluginfile.php/2845040/mod_resource/content/1/Requisitos%20-%20Aula%2015a.pdf">https://aprender3.unb.br/pluginfile.php/2845040/mod_resource/content/1/Requisitos%20-%20Aula%2015a.pdf</a>. Acesso em 24 de Maio de 2024.</p>
+<h2 id="historico-de-versoes">Histórico de Versões</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: center;">Data</th>
+<th style="text-align: center;">Descrição</th>
+<th style="text-align: center;">Autor</th>
+<th style="text-align: center;">Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1.0</td>
+<td style="text-align: center;">24/05/2024</td>
+<td style="text-align: center;">Criação do documento das Histórias de Usuários</td>
+<td style="text-align: center;"><a href="https://github.com/crstyhs">Christian</a></td>
+<td style="text-align: center;"><a href="https://github.com/ItaloBrunoM">Italo Bruno</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.1</td>
+<td style="text-align: center;">27/05/2024</td>
+<td style="text-align: center;">Adição de Histórias de Usuários</td>
+<td style="text-align: center;"><a href="https://github.com/crstyhs">Christian</a></td>
+<td style="text-align: center;"><a href="https://github.com/ItaloBrunoM">Italo Bruno</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.2</td>
+<td style="text-align: center;">27/05/2024</td>
+<td style="text-align: center;">Adição de Histórias de Usuários</td>
+<td style="text-align: center;"><a href="https://github.com/Bittarx">Bittar</a></td>
+<td style="text-align: center;"><a href="https://github.com/ItaloBrunoM">Italo}</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.section", "navigation.path", "navigation.top", "navigation.tabs", "navigation.tabs.sticky"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      
+    
+  </body>
+</html>
