@@ -114,7 +114,7 @@ Fonte:  [Ian Lucca](https://github.com/IanLucca12), 2024
 
 
    
-## Tabela X: Histórico de Versões
+## Tabela 10: Histórico de Versões
 | Versão | Data de execução | Data prevista de revisão | Descrição  |   Autor(es)    |  Revisado  |
 | :----: | :--------------: | :----------------------: | :--------: | :------------: | :---------:|
 | `1.0`  |    01/04/2024    |   14/04/2024    |  Correção e Melhoria do Artefato                 | [Ian Lucca](https://github.com/IanLucca12) |  Marcos Bittar, Italo Bruno, Harryson, Flávio Gustavo, Ian Lucca, Christian |
