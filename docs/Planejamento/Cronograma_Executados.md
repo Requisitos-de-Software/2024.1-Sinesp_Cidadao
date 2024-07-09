@@ -75,7 +75,46 @@ Autor: [Ian Lucca](https://github.com/IanLucca12), 2024
 Fonte:  [Ian Lucca](https://github.com/IanLucca12), 2024
 
 
-## Tabela X: Histórico de Versões
+
+## Tabela 7: Planejamento Entrega 5.2: Análise de Requisitos: Verificação e Validação II
+
+|            Atividade             | Início | Fim |                   Responsáveis                    | 
+| :------------------------------: | :-----: | :-----: | :--------------------------------------------: | 
+| Revisão de Requisitos            |  04/06  |  07/06  | Marcos Bittar, Italo Bruno, Harryson           | 
+| Prototipação                     |  08/06  |  11/06  | Marcos Bittar, Italo Bruno                     | 
+| Ata de Reunião                   |  12/06  |  12/06  | Harryson                                       | 
+| Geração de casos teste           |  12/06  |  14/06  |  Harryson, Italo Bruno                   | 
+| Gravação da apresentação         |  15/06  |  16/06  | Italo Bruno, Christian, Flávio Gustavo, Ian Lucca, Marcos Bittar, Harryson | 
+| Correções pós apresentação       |  19/06  |  19/06  | Harryson, Christian, Flávio Gustavo, Ian Lucca, Marcos Bittar, Italo Bruno | 
+
+Fonte:  [Ian Lucca](https://github.com/IanLucca12), 2024
+
+## Tabela 8: Planejamento Entrega 6: Pós-Rastreabilidade - Gerência II
+
+|            Atividade             | Início | Fim |                   Responsáveis                    | 
+| :------------------------------: | :-----: | :-----: | :--------------------------------------------: | 
+| Revisão de Requisitos            |  20/06  |  21/06  | Marcos Bittar, Italo Bruno, Harryson           | 
+| Ata de Reunião                   |  22/06  |  24/06  | Harryson                                       | 
+| Gravação da apresentação         |  24/06  |  24/06  | Italo Bruno, Christian, Flávio Gustavo, Ian Lucca, Marcos Bittar, Harryson | 
+| Correções pós apresentação       |  26/06  |  27/06  | Harryson, Christian, Flávio Gustavo, Ian Lucca, Marcos Bittar, Italo Bruno | 
+
+Fonte:  [Ian Lucca](https://github.com/IanLucca12), 2024
+
+## Tabela 9: Planejamento Entrega Final
+
+|            Atividade             | Início | Fim |                   Responsáveis                    | 
+| :------------------------------: | :-----: | :-----: | :--------------------------------------------: | 
+| Desenvolvimento do projeto final (correção e complemento) |  19/06  |  24/06  | Marcos Bittar, Italo Bruno, Harryson, Flávio Gustavo, Ian Lucca, Christian | 
+| Gravação da Apresentação e Entrega |  21/06  |  08/07  | Marcos Bittar, Italo Bruno, Harryson, Flávio Gustavo, Ian Lucca, Christian | 
+| Correção pós apresentação        |  25/06  |  09/07  | Marcos Bittar, Italo Bruno, Harryson, Flávio Gustavo, Ian Lucca, Christian | 
+
+Fonte:  [Ian Lucca](https://github.com/IanLucca12), 2024
+
+
+
+
+   
+## Tabela 10: Histórico de Versões
 | Versão | Data de execução | Data prevista de revisão | Descrição  |   Autor(es)    |  Revisado  |
 | :----: | :--------------: | :----------------------: | :--------: | :------------: | :---------:|
 | `1.0`  |    01/04/2024    |   14/04/2024    |  Correção e Melhoria do Artefato                 | [Ian Lucca](https://github.com/IanLucca12) |  Marcos Bittar, Italo Bruno, Harryson, Flávio Gustavo, Ian Lucca, Christian |
@@ -84,6 +123,7 @@ Fonte:  [Ian Lucca](https://github.com/IanLucca12), 2024
 | `1.3`  |    20/05/2024    |   20/05/2024    |  Ampliação do Artefato                 | [Ian Lucca](https://github.com/IanLucca12) |  Cristian, Harryson |
 | `1.4`  |    27/05/2024    |   27/05/2024    |  Ampliação e Correção do Artefato                 | [Ian Lucca](https://github.com/IanLucca12) |  Cristian, Ítalo |
 | `1.5`  |    05/06/2024    |   07/06/2024    |  Ampliação e Correção do Artefato                 | [Ian Lucca](https://github.com/IanLucca12) |  Marcos Bittar |
+| `1.6`  |    08/07/2024    |   08/07/2024    |  Ampliação e Correção do Artefato                 | [Ian Lucca](https://github.com/IanLucca12) |  Ítalo Bruno|
 
 
 
