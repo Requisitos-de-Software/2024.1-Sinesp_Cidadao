@@ -46,9 +46,7 @@ Autor: [Ian Lucca](https://github.com/IanLucca12), 2024
 
 [Video](https://www.youtube.com/watch?v=mM6mq-arqII)
 
-## Referências
-
-## Histórico de 
+## Histórico de Versão
 
 | Versão | Data | Descrição | Autor | Revisor |
 | :----: | :--: | :-------: | :---: | :----:|

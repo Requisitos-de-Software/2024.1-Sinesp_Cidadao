@@ -43,7 +43,6 @@ Autor: [Italo Bruno](https://github.com/ItaloBrunoM), 2024
 [Video Antigo](https://youtu.be/NPLQNpZzMlk)
 [Video Novo](https://youtu.be/2S2Yr7c_a5o)
 
-## Referências
 
 ## Histórico de versão
 

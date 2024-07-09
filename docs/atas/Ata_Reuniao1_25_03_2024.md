@@ -47,8 +47,6 @@ Primeira reunião de grupo para distribuição de tarefas e início do desenvolv
 | Criação do cronograma  | [Ian](https://github.com/IanLucca12),  [Christian](https://github.com/crstyhs)
 | Criação do site MkDocs  | [Flávio Gustavo](https://github.com/flavioovatsug) , [Harryson](https://github.com/harry-cmartin) 
 
-## Bibliografia
-
 ## Gravação da reunião
 
 [Video](https://youtu.be/zzsI4X1Jgew)

@@ -42,8 +42,6 @@ Autor: [Bittar](https://github.com/Bittarx), 2024
 
 [Video](https://www.youtube.com/watch?v=pl_dRySrwTU)
 
-## Referências
-
 ## Histórico de versão
 
 | Versão | Data | Descrição | Autor | Revisor |

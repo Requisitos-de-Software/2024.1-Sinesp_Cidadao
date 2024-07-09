@@ -39,8 +39,6 @@ Autor: [Flávio Melo](https://github.com/flavioovatsug), 2024
 
 [Video](https://www.youtube.com/watch?v=ukevCT7PVPI)
 
-## Referências
-
 ## Histórico de versão
 
 | Versão | Data | Descrição | Autor | Revisor |

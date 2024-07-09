@@ -14,15 +14,16 @@ Esta página é destinada à apresentação da etapa  entrega final do projeto d
 6) Uma tabela sintetizando quais artefatos foram criados no projeto em cada etapa do projeto com autor e revisor;
 7) Uma tabela sintetizando o método de verificação e validação dos artefatos com autor e revisor.
 8) Uma tabela sintetizando quais ferramentas e onde elas foram utilizadas em cada etapa do projeto;
-9) Uma tabela sintetizando os vídeos das apresentações de cada etapa com o(s) nome(s) do(s) participantes(s) do
-grupo que participaram das gravações).
+9) Uma tabela sintetizando os vídeos das apresentações de cada etapa com o(s) nome(s) do(s) participantes(s) do grupo que participaram das gravações.
  
 
 ## Apresentação
 
-[Para assistir a gravação clique aqui]()
+[Para assistir a gravação clique aqui](https://youtu.be/ENNkRIIwi6A)
 
 <center>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ENNkRIIwi6A?si=rCHOWiNbnrElJn41" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 </center>
 
@@ -35,3 +36,5 @@ grupo que participaram das gravações).
 | Versão |    Data    | Descrição| Autor(es)| Revisor(es)|
 | ------ | :--------: | ------------------ | --------------------- | ----------------------------------- |
 | `1.0` | 08/07/2024 | Criação e estruturação do arquivo |[Christian Hirsch Santos](https://github.com/crstyhs) |[Italo Bruno](https://github.com/ItaloBrunoM) |
+| `1.1` | 08/07/2024 | Adição do vídeo |[Italo Bruno](https://github.com/ItaloBrunoM) |[Christian Hirsch Santos](https://github.com/crstyhs)|
+
